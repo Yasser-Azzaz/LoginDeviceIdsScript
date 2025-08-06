@@ -132,7 +132,16 @@ def launch_mlbb():
     return False
 
 def pull_xml():
+    global LOCAL_TEMP_XML
     print("📥 Pulling XML from device...")
+    
+    # Clean up any existing temp file first
+    if os.path.exists(LOCAL_TEMP_XML):
+        try:
+            os.remove(LOCAL_TEMP_XML)
+            print("🧹 Cleaned up existing temp file")
+        except Exception as e:
+            print(f"⚠️ Warning: Could not remove existing temp file: {e}")
     
     # First, make the file readable with root
     output, returncode = run_adb_command(["shell", "su", "-c", f"chmod 644 {XML_PATH}"], capture_output=True)
@@ -142,29 +151,61 @@ def pull_xml():
     
     # Copy to a temporary location accessible by ADB
     temp_path = "/sdcard/temp_playerprefs.xml"
+    
+    # Clean up any existing temp file on device
+    run_adb_command(["shell", "rm", temp_path])
+    
     output, returncode = run_adb_command(["shell", "su", "-c", f"cp {XML_PATH} {temp_path}"], capture_output=True)
     if returncode != 0:
         print(f"❌ Failed to copy file to accessible location: {output}")
         return False
     
-    # Pull from the temporary location
-    output, returncode = run_adb_command(["pull", temp_path, LOCAL_TEMP_XML], capture_output=True)
+    # Make sure the temp file is readable
+    run_adb_command(["shell", "chmod", "644", temp_path])
     
-    # Clean up temporary file
+    # Try pulling to different local paths if current directory has issues
+    local_paths = [
+        LOCAL_TEMP_XML,  # Current directory
+        f"C:\\temp\\{os.path.basename(LOCAL_TEMP_XML)}",  # C:\temp\
+        f"{os.path.expanduser('~')}\\{os.path.basename(LOCAL_TEMP_XML)}",  # User home directory
+    ]
+    
+    for local_path in local_paths:
+        # Create directory if it doesn't exist
+        local_dir = os.path.dirname(local_path)
+        if local_dir and not os.path.exists(local_dir):
+            try:
+                os.makedirs(local_dir, exist_ok=True)
+            except:
+                continue
+        
+        print(f"🔄 Attempting to pull to: {local_path}")
+        output, returncode = run_adb_command(["pull", temp_path, local_path], capture_output=True)
+        
+        if returncode == 0 and os.path.exists(local_path):
+            print(f"✅ XML file pulled successfully to: {local_path}")
+            # Update the global variable to use the successful path
+            LOCAL_TEMP_XML = local_path
+            # Clean up temporary file on device
+            run_adb_command(["shell", "rm", temp_path])
+            return True
+        else:
+            print(f"❌ Failed to pull to {local_path}: {output}")
+    
+    # Clean up temporary file on device
     run_adb_command(["shell", "rm", temp_path])
-    
-    if returncode == 0 and os.path.exists(LOCAL_TEMP_XML):
-        print("✅ XML file pulled successfully")
-        return True
-    else:
-        print(f"❌ Failed to pull XML file: {output}")
-        return False
+    print("❌ Failed to pull XML file to any location")
+    return False
 
 def push_xml():
     print("📤 Pushing modified XML to device...")
     
     # Push to temporary location first
     temp_path = "/sdcard/temp_playerprefs.xml"
+    
+    # Clean up any existing temp file on device
+    run_adb_command(["shell", "rm", temp_path])
+    
     output, returncode = run_adb_command(["push", LOCAL_TEMP_XML, temp_path], capture_output=True)
     if returncode != 0:
         print(f"❌ Failed to push file to temporary location: {output}")
@@ -178,10 +219,18 @@ def push_xml():
     
     # Set proper permissions
     run_adb_command(["shell", "su", "-c", f"chmod 644 {XML_PATH}"])
-    run_adb_command(["shell", "su", "-c", f"chown system:system {XML_PATH}"])
+    run_adb_command(["shell", "su", "-c", f"chown u0_a65:u0_a65 {XML_PATH}"])
     
-    # Clean up temporary file
+    # Clean up temporary file on device
     run_adb_command(["shell", "rm", temp_path])
+    
+    # Clean up local temp file
+    try:
+        if os.path.exists(LOCAL_TEMP_XML):
+            os.remove(LOCAL_TEMP_XML)
+            print("🧹 Cleaned up local temp file")
+    except Exception as e:
+        print(f"⚠️ Warning: Could not clean up local temp file: {e}")
     
     print("✅ XML file pushed and permissions set")
     return True
