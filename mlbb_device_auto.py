@@ -17,7 +17,7 @@ PHONE_SS_PATH = os.path.expanduser(r"~\Desktop\MlbbDeviceIdsSceenShots")
 
 WAIT_TIMES = {
     'emulator': 22,
-    'phone': 12
+    'phone': 15
 }
 
 LOG_FILE = "results.log"
