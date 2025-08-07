@@ -76,8 +76,7 @@ def update_device_id(device_id_value):
 
 def push_xml(device_id):
     run(["adb", "-s", device_id, "push", TEMP_XML_FILE, f"/sdcard/{XML_FILENAME}"])
-    run(["adb", "-s", device_id, "shell", "su", "-c",
-         f"cp /sdcard/{XML_FILENAME} {XML_PATH} && chmod 444 {XML_PATH}"])
+    run(["adb", "-s", device_id, "shell", "su", "-c", f"cp /sdcard/{XML_FILENAME} {XML_PATH}"])
 
 def launch_mlbb(device_id):
     run(["adb", "-s", device_id, "shell", "am", "force-stop", PACKAGE_NAME])
