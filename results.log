@@ -1,0 +1,71 @@
+[OK] ID 1 - db211d6dffe846ccd9beb30ff2dffefbffd120dc3508960ec935df84-341e-44ac-9f6e-ee0e33fb625e - Took 17.47s - Processed count: 1
+[SKIP] ID 1 - Screenshot already exists
+[OK] ID 2 - b94e0559a27264776e3f67cf4354edc825c4d3670c85997978b8d088-dcf0-4c06-8589-e5d0a366f024 - Took 17.40s - Processed count: 1
+[OK] ID 3 - d8f4d2ac34b2655f827b1dd154b9cb59c83fc236d3949dd1058d166b-89e9-4e05-9681-0f37e9f7a011 - Took 17.43s - Processed count: 2
+[SKIP] ID 1 - Screenshot already exists
+[SKIP] ID 2 - Screenshot already exists
+[SKIP] ID 3 - Screenshot already exists
+[OK] ID 4 - b14ae9e65921ac8a7cd944262835326f2d97b8a5e606abfa0e313858-c127-4f63-88bb-6f885b924103 - Took 17.25s - Processed count: 1
+[OK] ID 1 - 6dd9f5051ecf7bbdef2fead828cc55ef592d43f2edd6e0bb378eb265-6a66-4da0-9702-bb269aa222ff - Took 13.15s - Processed count: 1
+[OK] ID 2 - 0702a360ee3777e100def343d25aac2d7eb7ed73a7d920117c3383f5-1416-4c3a-bfc8-0c1014ad3faa - Took 13.22s - Processed count: 2
+[OK] ID 3 - a1e13a292f303612130fc2baf79ea98c9ed4c12763f0d32565716cf4-a3ab-43dc-af06-801053495708 - Took 14.10s - Processed count: 3
+[OK] ID 4 - d30864dc864e78136f61ea2490f3e0c97a0940751b2f6fc8babdbff1-57e0-453f-a6c5-cb9bb3ad8d9d - Took 13.09s - Processed count: 4
+[OK] ID 5 - a3ec63ad507f3bb8905014b2db64db4dd09f844f1aa511c8c84db4f6-3c49-41b7-93f7-c145332b23bd - Took 13.14s - Processed count: 5
+[OK] ID 6 - 64ee25e544c4601326071314990e0dcde2fb05f0a4760c72b904d226-b56f-44d3-9881-a32cff784cca - Took 13.21s - Processed count: 6
+[OK] ID 7 - 8fafe688fef29cb1fc040d9a77c45f1656e161fdbe44818fa7824287-4c90-4d90-93b3-98b645fecc19 - Took 13.51s - Processed count: 7
+[OK] ID 8 - 3d96df613ae587f6d0e21b95e14224d94729c73d4af129db1a0ca802-f6ad-4e10-9300-60f242ea5b1c - Took 13.38s - Processed count: 8
+[OK] ID 9 - 9e0d16ed7248bbebc613084709a0e076f6c1e0280983b7684419ac2a-3e32-4202-9668-8e3cdfecfe7d - Took 13.76s - Processed count: 9
+[OK] ID 10 - a16a622f8780b769a5bb9eedc8663383aad34ae0ee269fd4none - Took 13.48s - Processed count: 10
+[OK] ID 11 - 2f392e9b7d229bbbdcaeb396355bf5101180662f7b878702bd9e62cd-7499-41e7-bbe2-c3ed9b6ea744 - Took 13.30s - Processed count: 11
+[OK] ID 12 - f3639aee67aa93aada4fc1c351bce574fd81061be64e377dce776d8a-f2dd-4359-a811-20b564104a82 - Took 13.54s - Processed count: 12
+[OK] ID 13 - 6f8d841c9f664253dc8a2a1b1795e0cde3e2c12e0f9dc36enone - Took 13.50s - Processed count: 13
+[OK] ID 14 - 49dd8b04ba465194ce3839959a73f99891c459f8b78c559bfcd461f6-890f-4ed4-bf2d-4288ff3bb55b - Took 13.52s - Processed count: 14
+[OK] ID 15 - 7b073b16eeb9fa5506da582cff73ba0afa65fcee3dfeeaef0db6c0-e1b2-40be-bb60-942a1f6bc17c - Took 13.41s - Processed count: 15
+[OK] ID 16 - e829a2eecf0a7cc5d6a521a3eeced433901cac0e093b4841f4863e8d-b94e-4e14-b23c-73fa17986a2c - Took 13.44s - Processed count: 16
+[OK] ID 17 - c2597dcdc2c671927c85a3cd227ba3941d92bfdce4c8898a35c64b51-10b0-43a0-8287-4645a6cd7584 - Took 13.52s - Processed count: 17
+[OK] ID 18 - 9679e1b293fada46fac29f85c36060e0fdfb88895df99f7dnone - Took 13.49s - Processed count: 18
+[OK] ID 19 - a16a622f8780b769a5bb9eedc86633835cb6cbfeeb770e61725f3b9f-87b2-489f-85d9-9a95cec1be84 - Took 13.46s - Processed count: 19
+[OK] ID 20 - 0702a360ee3777e100def343d25aac2d7eb7ed73a7d92011none - Took 13.53s - Processed count: 20
+[OK] ID 21 - 09c3a9fc6b409e35e9f9605fe5ed522f1edf476b21430c80ae5f082b-481f-4c6e-803c-63e62b046419 - Took 13.69s - Processed count: 21
+[OK] ID 22 - 6cbea3ef5366b9fea2b970e24e1b6cca8044f611ea6da0264635689d-7669-4db0-a0c0-1c765eeb4e96 - Took 13.61s - Processed count: 22
+[OK] ID 23 - 5d5b18506f9538b3cbc5b7f3c4859335b1236e3278601e1827a7d26e-81fa-487a-99cc-12cd6f2f70c9 - Took 13.53s - Processed count: 23
+[OK] ID 24 - 9d74a66d8f28440e1537031c31f47f78ea2ddb7d778c8bb4eedf9d35-125e-4dd2-a8ba-98b5a035ee49 - Took 13.54s - Processed count: 24
+[OK] ID 25 - 21a9613e098620dc91ad95506c9875c498f76c4f55d8c4c1ad3d0028-102e-46bb-b922-988b10d771c2 - Took 13.54s - Processed count: 25
+[OK] ID 26 - 39b5805223775c1a9733c2dbb5dd01eee029b0d712e07722a488d0a3-01af-46ea-9caa-aa696d2af773 - Took 13.50s - Processed count: 26
+[OK] ID 27 - 76793360579a9eaa86e5513bfaabe0f645b2326e38e7c30ab6775402-ba7d-4fae-894c-eb28ca270877 - Took 13.54s - Processed count: 27
+[OK] ID 28 - 651ff9648c203df8dd8543c724524b38859546df902f63fc90ac2e9a-1d80-4ced-b0de-3a3b118394c0 - Took 13.55s - Processed count: 28
+[OK] ID 29 - b258b3255a8dcb71e1bf37e5a57d1ecb5e3f2f724210ea3af49b9e55-45b4-420a-be17-cd46101600c1 - Took 13.50s - Processed count: 29
+[OK] ID 30 - 82cdb30a64ec86a19c82684f130e7c46fb13ec78f3fd89ed3973ebbc-221d-4b90-b373-f6aac55c2277 - Took 13.54s - Processed count: 30
+[OK] ID 31 - 923fe5ea24cc8e7d48f13b437c4ed52b1432861df827c6da47b51a68-8650-4482-b3e7-de86a7811ad3 - Took 13.97s - Processed count: 31
+[OK] ID 32 - 81ca0ae89669b3fb5cd6a852f298817ab5d9e1f890ae663c2f7280a0-35ed-4480-aa67-d7d545e7b065 - Took 14.21s - Processed count: 32
+[OK] ID 33 - 05443435f29e7d3eaba873da78074a1b9f35a62a21cacb772936c4fa-5a41-4818-a56d-d309beb226bd - Took 13.66s - Processed count: 33
+[OK] ID 34 - 47719e5b37b6828e7be547835c251452624181a18d56029198289038-da7a-4d1b-be92-faab1fb2393c - Took 13.54s - Processed count: 34
+[OK] ID 35 - 1c967c9590d79d1d2bdff34acda4c06a16141104ae756f44ad9d7c94-f0ce-4599-9749-41c0c8a28196 - Took 13.78s - Processed count: 35
+[OK] ID 36 - f69004543f4c33102fdea5d49f64421d3820240f8753595b00a390-a35f-4ac0-993b-396d8e8ef300 - Took 13.59s - Processed count: 36
+[OK] ID 37 - 3e3ab82d7e0a1e8f88e4c7fa28e89a551d840ad1300662bfc9dd8a05-9c46-472e-9a26-849de1862d54 - Took 13.57s - Processed count: 37
+[OK] ID 38 - 12d2ef0419f82a5895c807aab7338139a3e239d20f511ac45a8576f8-a3b8-4d6d-b01a-57df586e5ec7 - Took 13.49s - Processed count: 38
+[OK] ID 39 - 59b07943813aa95e2ff0e76178b2e082dd24e1ec9b26f52ca688d9c5-56f3-4f63-89e0-c67cce4ddfd9 - Took 13.53s - Processed count: 39
+[OK] ID 40 - 94a5ac03adaf43f8a560440b2b4d5953834a0f1dbada3ee6c8a1244-ff1a-482d-8f74-ed9c5b6bf341 - Took 13.53s - Processed count: 40
+[OK] ID 41 - 0907d887339c45954a1637d5e113bb93ccd6f8ece6bdee7e76f132f9-9222-45c8-adc4-936e5a940590 - Took 13.51s - Processed count: 41
+[OK] ID 42 - 4ced2d2cabe6fbcdc6b4080479e2bb6bbfcd04f01aede227fcc8b858-cf27-45e8-834b-5516ef803188 - Took 13.56s - Processed count: 42
+[OK] ID 43 - 1d1c7898b9686b90cea4762b291ee30241c98d12f1f977545239a12d-7b92-4606-927d-8b9701754ed4 - Took 13.39s - Processed count: 43
+[OK] ID 44 - 09f440e30a3e8ccd33dd0f701238b833f23c88f2cb3ed580bd50edc4-d928-412d-a970-fae2e462819c - Took 13.57s - Processed count: 44
+[OK] ID 45 - 4e8bf07ba07c3487ff8f1cc6031b168e4b45e3e5df3919c061de9dee-9882-4200-ab9e-3e72a9f2dc72 - Took 13.53s - Processed count: 45
+[OK] ID 46 - c5b8c59e8b1ab1014ab6bb77d8aca8bd11570a91acb8bef3ce07b4a4-51c2-4d22-b211-78a1cb9e9dc0 - Took 13.49s - Processed count: 46
+[OK] ID 47 - 2c5ea13ea3621a34ba809ab084738d682cd30aa67c83d7b4bfdfa026-ed7d-48a5-9deb-951fff04df9a - Took 13.92s - Processed count: 47
+[OK] ID 48 - ed66e859e64b263a7ae1fdf05adbb9f69a68cc2ed5f13828e1b4f450-3f58-4efa-aa2e-0884530d64b3 - Took 13.57s - Processed count: 48
+[OK] ID 49 - 84539080a05f4510af5fa40ac3383833010dcfddddf7a4241ea40f53-e6dd-4e31-82b1-3c77e8587ae6 - Took 14.02s - Processed count: 49
+[OK] ID 50 - c2d9b97bfbdb4235e1e327f2cfd302961f8ade0d8e21a643ec7712de-680c-4c52-80f6-adf5f9e87d51 - Took 14.46s - Processed count: 50
+[OK] ID 51 - af7777803f6a5932d253794e54c5da99bda362e0a7e624a5aab8de67-854d-4233-ac5a-ca3acbfe5825 - Took 13.61s - Processed count: 51
+[OK] ID 52 - a5c04b7d1145561c16381123ab93ae81c2223c9027aa91a933456340-20e8-435e-9b7b-67d8b747e7fd - Took 13.47s - Processed count: 52
+[OK] ID 53 - d1cb61f3c8ca8d3a4127e9387cc44fd7d50043acb71aa7cf7b575d33-9921-4ab8-ba69-a04d0f422bbd - Took 13.54s - Processed count: 53
+[OK] ID 54 - a733b13ab004bd9a3d0e7017743b92f3374d50cfe706f842f3f1d4ea-fd44-4aa0-b140-42ec5c003cd3 - Took 13.83s - Processed count: 54
+[OK] ID 55 - 914dab80d1756bc80e38c407ab56076252d704327ab1cd121fa66cef-3e73-415f-8336-2863578921af - Took 13.60s - Processed count: 55
+[OK] ID 56 - 8ec9083f382bc150b1d3875a1e6c6bfc5247ae20433fe3df62559308-3110-4426-9965-9e8645c3956c - Took 14.05s - Processed count: 56
+[ERROR] ID 57 - no element found: line 1744, column 58
+[OK] ID 58 - 7fcb26bdd61c43c760a1a60c032a6fc22dea14db365d104330c8f07f-5416-4886-aec2-7c57d849f5d5 - Took 13.54s - Processed count: 57
+[OK] ID 59 - 15a170bba49739498fdb0a0061ca9a5d2e0d197ebc53852cd59d9ef4-4d0b-42e8-9eff-866908d9b76e - Took 13.61s - Processed count: 58
+[OK] ID 60 - 17cc39be526d8a91ccab64fecf2126d4d1212b379119b94afdc9538a-10bd-494f-89f4-30ad0f0b26dd - Took 13.55s - Processed count: 59
+
+--- Finished at 2025-08-09 14:12:03 | Total Time: 801.30s | Processed: 59 IDs ---
+

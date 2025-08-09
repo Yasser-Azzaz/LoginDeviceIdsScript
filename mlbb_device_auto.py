@@ -17,10 +17,11 @@ PHONE_SS_PATH = os.path.expanduser(r"~\Desktop\MlbbDeviceIdsSceenShots")
 
 WAIT_TIMES = {
     'emulator': 22,
-    'phone': 15
+    'phone': 11.5
 }
 
 LOG_FILE = "results.log"
+MAX_IDS_TO_PROCESS = 60  # Maximum number of IDs to process
 
 def run(cmd):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
@@ -55,7 +56,15 @@ def choose_device(devices):
 
 def read_ids():
     with open(DEVICE_IDS_FILE, "r") as f:
-        return [line.strip() for line in f if line.strip()]
+        all_ids = [line.strip() for line in f if line.strip()]
+    
+    # Limit to maximum number of IDs
+    if len(all_ids) > MAX_IDS_TO_PROCESS:
+        print(f"\n⚠️ Found {len(all_ids)} IDs, but limiting to {MAX_IDS_TO_PROCESS} IDs as configured.")
+        return all_ids[:MAX_IDS_TO_PROCESS]
+    else:
+        print(f"\n✅ Found {len(all_ids)} IDs (within the {MAX_IDS_TO_PROCESS} ID limit).")
+        return all_ids
 
 def pull_xml(device_id):
     run(["adb", "-s", device_id, "shell", "su", "-c", f"cp {XML_PATH} /sdcard/{XML_FILENAME}"])
@@ -106,8 +115,15 @@ def handle_device(device_id, device_type, ids):
 
     total = len(ids)
     start_time = time.time()
+    processed_count = 0
 
     for i, did in enumerate(tqdm(ids, desc=f"{device_type} Processing", unit="id")):
+        # Check if we've reached the limit
+        if processed_count >= MAX_IDS_TO_PROCESS:
+            print(f"\n\033[93m🛑 Reached maximum limit of {MAX_IDS_TO_PROCESS} IDs. Stopping...\033[0m")
+            write_log(f"[LIMIT] Stopped after processing {MAX_IDS_TO_PROCESS} IDs")
+            break
+
         index = i + 1
         ss_filename = str(index)
         ss_full_path = os.path.join(screenshot_path, f"{ss_filename}.png")
@@ -127,12 +143,14 @@ def handle_device(device_id, device_type, ids):
             time.sleep(wait_time)
             take_screenshot(device_id, ss_filename, device_type)
 
+            processed_count += 1
             elapsed = time.time() - id_start_time
-            avg_so_far = (time.time() - start_time) / index
-            est_finish = datetime.now() + timedelta(seconds=(total - index) * avg_so_far)
+            avg_so_far = (time.time() - start_time) / processed_count
+            remaining = min(total - index, MAX_IDS_TO_PROCESS - processed_count)
+            est_finish = datetime.now() + timedelta(seconds=remaining * avg_so_far)
 
-            print(f"\033[92m[✔] ID {index} done in {elapsed:.2f}s | Remaining: {total - index} | ETA: {est_finish.strftime('%H:%M:%S')}\033[0m")
-            write_log(f"[OK] ID {index} - {did} - Took {elapsed:.2f}s")
+            print(f"\033[92m[✔] ID {index} done in {elapsed:.2f}s | Processed: {processed_count}/{MAX_IDS_TO_PROCESS} | Remaining: {remaining} | ETA: {est_finish.strftime('%H:%M:%S')}\033[0m")
+            write_log(f"[OK] ID {index} - {did} - Took {elapsed:.2f}s - Processed count: {processed_count}")
 
         except Exception as e:
             print(f"\033[91m[✘] Failed ID {index} - {str(e)}\033[0m")
@@ -140,8 +158,8 @@ def handle_device(device_id, device_type, ids):
 
     total_time = time.time() - start_time
     play_sound()
-    print(f"\n\033[95m✅ Completed all in {total_time/60:.2f} minutes\033[0m")
-    write_log(f"\n--- Finished at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Total Time: {total_time:.2f}s ---\n")
+    print(f"\n\033[95m✅ Completed processing {processed_count} IDs in {total_time/60:.2f} minutes\033[0m")
+    write_log(f"\n--- Finished at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Total Time: {total_time:.2f}s | Processed: {processed_count} IDs ---\n")
 
 def main():
     print("🔍 Scanning for devices...\n")
