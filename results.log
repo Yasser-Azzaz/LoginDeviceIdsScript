@@ -1,2 +1,8 @@
 [OK] ID 1 - 41a993eb2c35e2e68ddd28d8925b3571d921a6edae591257fa3e426b-ab0f-4086-9c5b-992de472647e - Took 14.08s - Processed count: 1
 [OK] ID 2 - 509c46a363c46a6d2ecd951893a3dd9782ac2f1328469eba5612e644-7c4f-46f0-89cd-2972c8b676e2 - Took 15.00s - Processed count: 2
+[OK] ID 1 - 509c46a363c46a6d2ecd951893a3dd9782ac2f1328469eba5612e644-7c4f-46f0-89cd-2972c8b676e2 - Took 15.11s - Processed count: 1
+[OK] ID 2 - 84c71e28b32969adffce3ceabf35a46f59fbc911d775185bd6bb8f67-e8f4-4f84-90c4-bde21c4dab53 - Took 15.43s - Processed count: 2
+[OK] ID 1 - 509c46a363c46a6d2ecd951893a3dd9782ac2f1328469eba5612e644-7c4f-46f0-89cd-2972c8b676e2 - Took 14.13s - Processed count: 1
+[OK] ID 2 - 84c71e28b32969adffce3ceabf35a46f59fbc911d775185bd6bb8f67-e8f4-4f84-90c4-bde21c4dab53 - Took 15.18s - Processed count: 2
+[SKIP] ID 1 - Screenshot already exists
+[SKIP] ID 2 - Screenshot already exists
