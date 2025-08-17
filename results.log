@@ -1,8 +1,11 @@
-[OK] ID 1 - 41a993eb2c35e2e68ddd28d8925b3571d921a6edae591257fa3e426b-ab0f-4086-9c5b-992de472647e - Took 14.08s - Processed count: 1
-[OK] ID 2 - 509c46a363c46a6d2ecd951893a3dd9782ac2f1328469eba5612e644-7c4f-46f0-89cd-2972c8b676e2 - Took 15.00s - Processed count: 2
-[OK] ID 1 - 509c46a363c46a6d2ecd951893a3dd9782ac2f1328469eba5612e644-7c4f-46f0-89cd-2972c8b676e2 - Took 15.11s - Processed count: 1
-[OK] ID 2 - 84c71e28b32969adffce3ceabf35a46f59fbc911d775185bd6bb8f67-e8f4-4f84-90c4-bde21c4dab53 - Took 15.43s - Processed count: 2
-[OK] ID 1 - 509c46a363c46a6d2ecd951893a3dd9782ac2f1328469eba5612e644-7c4f-46f0-89cd-2972c8b676e2 - Took 14.13s - Processed count: 1
-[OK] ID 2 - 84c71e28b32969adffce3ceabf35a46f59fbc911d775185bd6bb8f67-e8f4-4f84-90c4-bde21c4dab53 - Took 15.18s - Processed count: 2
-[SKIP] ID 1 - Screenshot already exists
-[SKIP] ID 2 - Screenshot already exists
+[OK] ID 1 - 9eb9391f2c77f19d88b9d1773677181ec4c264c8c04932260d8861f2-ec18-4b13-ac0e-50ef296f1b24 - Took 27.55s - Processed count: 1
+[OK] ID 2 - 6d1da5b2cb3caf992c262e01ec111a5067965548f685cf867d57c803-3f41-43ce-b091-d9d90c9c8d84 - Took 27.74s - Processed count: 2
+[OK] ID 3 - f50e607cc57f440e72bfbb5d72952e471b72f62088bb0cbfb6ea032d-72ac-4305-9525-8e4387d4cf60 - Took 27.46s - Processed count: 3
+[OK] ID 4 - d2d97cb7b3c46ef999b33c1db3d9ecef236d148c6f36e213187ad970-e654-43e0-bce5-8ec0aead19bc - Took 27.56s - Processed count: 4
+[OK] ID 5 - 6717d25a17b8c03c4ae92e0f1911c331209844e21e69879a8a6cbb20-f2ab-47a0-b0e0-452608c361e4 - Took 27.47s - Processed count: 5
+[OK] ID 6 - 8ddd2b618cda995e89bfd662fd6d473b96a22a7e1b8ea24e5950cfba-3fa0-4d61-ad7c-df707b567e34 - Took 27.94s - Processed count: 6
+[OK] ID 7 - a383b5a56c906044f927b96e588e9392ba91c976a027336d2a7eb0a7-a57f-4f3f-8edd-fc510278cfb4 - Took 27.70s - Processed count: 7
+[OK] ID 8 - d2702e1714346a4d2d4472cd0823c50c944eeef02707b51cf37c4a26-511b-4af9-9d90-84d1397021bd - Took 28.39s - Processed count: 8
+[OK] ID 9 - f9fdf10d8733689f2a279a5e381193d3d19f652e44246d099c8d2686-27bb-43cf-9d92-a2025c7770ea - Took 27.84s - Processed count: 9
+[OK] ID 10 - 4f9a5801319d4c302c0828f6cc31dd178062294cd4a339d6be13d2ca-4d96-442e-b40f-11f69f7e5f3c - Took 27.90s - Processed count: 10
+[OK] ID 11 - 4d21296db9586ab48c6761801ef68919749bad5a2f5a5444e2da6c74-8c81-4c29-aa50-5ff4d5635ba2 - Took 28.04s - Processed count: 11
