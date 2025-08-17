@@ -21,7 +21,7 @@ WAIT_TIMES = {
 }
 
 LOG_FILE = "results.log"
-MAX_IDS_TO_PROCESS =  120 # Maximum number of IDs to process
+MAX_IDS_TO_PROCESS =  100 # Maximum number of IDs to process
 
 def run(cmd):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
