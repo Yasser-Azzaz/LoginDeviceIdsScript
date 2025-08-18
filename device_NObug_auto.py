@@ -21,7 +21,7 @@ WAIT_TIMES = {
 }
 
 LOG_FILE = "results.log"
-MAX_IDS_TO_PROCESS =  20000 # Maximum number of IDs to process
+MAX_IDS_TO_PROCESS = 20000 # Maximum number of IDs to process
 
 def run(cmd):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
@@ -45,14 +45,14 @@ def list_devices():
     return devices
 
 def choose_device(devices):
-    print("\nðŸ“± Connected Devices:")
+    print("\n📱 Connected Devices:")
     for i, (_, model, dtype) in enumerate(devices):
         print(f"[{i}] {model} ({dtype})")
     while True:
         idx = input("\nSelect device: ")
         if idx.isdigit() and 0 <= int(idx) < len(devices):
             return devices[int(idx)]
-        print("âŒ Invalid selection. Try again.")
+        print("⚠ Invalid selection. Try again.")
 
 def read_ids():
     with open(DEVICE_IDS_FILE, "r") as f:
@@ -60,11 +60,16 @@ def read_ids():
     
     # Limit to maximum number of IDs
     if len(all_ids) > MAX_IDS_TO_PROCESS:
-        print(f"\nâš ï¸ Found {len(all_ids)} IDs, but limiting to {MAX_IDS_TO_PROCESS} IDs as configured.")
+        print(f"\n⚠️ Found {len(all_ids)} IDs, but limiting to {MAX_IDS_TO_PROCESS} IDs as configured.")
         return all_ids[:MAX_IDS_TO_PROCESS]
     else:
-        print(f"\nâœ… Found {len(all_ids)} IDs (within the {MAX_IDS_TO_PROCESS} ID limit).")
+        print(f"\n✅ Found {len(all_ids)} IDs (within the {MAX_IDS_TO_PROCESS} ID limit).")
         return all_ids
+
+def delete_xml_file(device_id):
+    """Delete the XML file from the device to force game to create a new one"""
+    print("🗑️ Deleting old XML file...")
+    run(["adb", "-s", device_id, "shell", "su", "-c", f"rm -f {XML_PATH}"])
 
 def pull_xml(device_id):
     run(["adb", "-s", device_id, "shell", "su", "-c", f"cp {XML_PATH} /sdcard/{XML_FILENAME}"])
@@ -90,6 +95,11 @@ def push_xml(device_id):
 def launch_mlbb(device_id):
     run(["adb", "-s", device_id, "shell", "am", "force-stop", PACKAGE_NAME])
     run(["adb", "-s", device_id, "shell", "monkey", "-p", PACKAGE_NAME, "-c", "android.intent.category.LAUNCHER", "1"])
+
+def close_mlbb(device_id):
+    """Close the Mobile Legends game"""
+    print("🔒 Closing Mobile Legends...")
+    run(["adb", "-s", device_id, "shell", "am", "force-stop", PACKAGE_NAME])
 
 def take_screenshot(device_id, filename, device_type):
     remote_path = f"/sdcard/Pictures/{filename}.png"
@@ -120,7 +130,7 @@ def handle_device(device_id, device_type, ids):
     for i, did in enumerate(tqdm(ids, desc=f"{device_type} Processing", unit="id")):
         # Check if we've reached the limit
         if processed_count >= MAX_IDS_TO_PROCESS:
-            print(f"\n\033[93mðŸ›‘ Reached maximum limit of {MAX_IDS_TO_PROCESS} IDs. Stopping...\033[0m")
+            print(f"\n\033[93m🛑 Reached maximum limit of {MAX_IDS_TO_PROCESS} IDs. Stopping...\033[0m")
             write_log(f"[LIMIT] Stopped after processing {MAX_IDS_TO_PROCESS} IDs")
             break
 
@@ -129,19 +139,49 @@ def handle_device(device_id, device_type, ids):
         ss_full_path = os.path.join(screenshot_path, f"{ss_filename}.png")
 
         if os.path.exists(ss_full_path):
-            print(f"\033[96m[â­] Skipped ID {index} - Screenshot already exists\033[0m")
+            print(f"\033[96m[⭐] Skipped ID {index} - Screenshot already exists\033[0m")
             write_log(f"[SKIP] ID {index} - Screenshot already exists")
             continue
 
         id_start_time = time.time()
         try:
-            print(f"\n\033[94mðŸ” [{index}/{total}] {device_type} - Device ID:\033[0m {did}")
-            pull_xml(device_id)
-            update_device_id(did)
-            push_xml(device_id)
+            print(f"\n\033[94m🔄 [{index}/{total}] {device_type} - Device ID:\033[0m {did}")
+            
+            # Step 1: Delete old XML file
+            delete_xml_file(device_id)
+            
+            # Step 2: Launch game to create new XML file
+            print("🚀 Launching game to create new XML file...")
             launch_mlbb(device_id)
-            time.sleep(wait_time)
+            time.sleep(wait_time)  # Wait for game to fully load and create XML
+            
+            # Step 3: Close game
+            close_mlbb(device_id)
+            time.sleep(2)  # Short wait to ensure game is fully closed
+            
+            # Step 4: Pull the newly created XML file
+            print("📥 Pulling newly created XML file...")
+            pull_xml(device_id)
+            
+            # Step 5: Update device ID in XML
+            print("✏️ Updating device ID in XML...")
+            update_device_id(did)
+            
+            # Step 6: Push modified XML back
+            print("📤 Pushing modified XML back...")
+            push_xml(device_id)
+            
+            # Step 7: Launch game with modified XML
+            print("🎮 Launching game with modified XML...")
+            launch_mlbb(device_id)
+            time.sleep(wait_time)  # Wait for game to load with new device ID
+            
+            # Step 8: Take screenshot
+            print("📸 Taking screenshot...")
             take_screenshot(device_id, ss_filename, device_type)
+            
+            # Step 9: Close game again
+            close_mlbb(device_id)
 
             processed_count += 1
             elapsed = time.time() - id_start_time
@@ -149,27 +189,32 @@ def handle_device(device_id, device_type, ids):
             remaining = min(total - index, MAX_IDS_TO_PROCESS - processed_count)
             est_finish = datetime.now() + timedelta(seconds=remaining * avg_so_far)
 
-            print(f"\033[92m[âœ”] ID {index} done in {elapsed:.2f}s | Processed: {processed_count}/{MAX_IDS_TO_PROCESS} | Remaining: {remaining} | ETA: {est_finish.strftime('%H:%M:%S')}\033[0m")
+            print(f"\033[92m[✓] ID {index} done in {elapsed:.2f}s | Processed: {processed_count}/{MAX_IDS_TO_PROCESS} | Remaining: {remaining} | ETA: {est_finish.strftime('%H:%M:%S')}\033[0m")
             write_log(f"[OK] ID {index} - {did} - Took {elapsed:.2f}s - Processed count: {processed_count}")
 
         except Exception as e:
-            print(f"\033[91m[âœ˜] Failed ID {index} - {str(e)}\033[0m")
+            print(f"\033[91m[✘] Failed ID {index} - {str(e)}\033[0m")
             write_log(f"[ERROR] ID {index} - {str(e)}")
+            # Try to close game even if there was an error
+            try:
+                close_mlbb(device_id)
+            except:
+                pass
 
     total_time = time.time() - start_time
     play_sound()
-    print(f"\n\033[95mâœ… Completed processing {processed_count} IDs in {total_time/60:.2f} minutes\033[0m")
+    print(f"\n\033[95m✅ Completed processing {processed_count} IDs in {total_time/60:.2f} minutes\033[0m")
     write_log(f"\n--- Finished at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Total Time: {total_time:.2f}s | Processed: {processed_count} IDs ---\n")
 
 def main():
-    print("ðŸ” Scanning for devices...\n")
+    print("🔍 Scanning for devices...\n")
     devices = list_devices()
     if not devices:
-        print("âŒ No devices found.")
+        print("⚠ No devices found.")
         return
     selected = choose_device(devices)
     device_id, model, device_type = selected
-    print(f"\nâœ… Selected: {model} ({device_type})")
+    print(f"\n✅ Selected: {model} ({device_type})")
     ids = read_ids()
     handle_device(device_id, device_type, ids)
 
