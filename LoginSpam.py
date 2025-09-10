@@ -9,9 +9,9 @@ PACKAGE_NAME = "com.mobile.legends"
 XML_FILENAME = "com.mobile.legends.v2.playerprefs.xml"
 XML_PATH = f"/data/data/{PACKAGE_NAME}/shared_prefs/{XML_FILENAME}"
 
-WAIT_TIME = 13  # 13 seconds wait time
+WAIT_TIME = 10  # 13 seconds wait time
 LOG_FILE = "results.log"
-MAX_ITERATIONS = 999999999999999  # Maximum number of iterations to run
+MAX_ITERATIONS = 999999  # Reduced to a reasonable maximum number
 
 def run(cmd):
     result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
@@ -72,17 +72,19 @@ def run_mlbb_cycles(device_id, device_type):
     """Run repeated MLBB open/close cycles"""
     print(f"\n🚀 Starting MLBB cycles on {device_type}")
     print(f"⏱️  Each cycle: Set XML read-only (444) → Open MLBB → Wait {WAIT_TIME}s → Close MLBB")
-    print(f"🔄 Maximum iterations: {MAX_ITERATIONS}")
+    print(f"🔄 Maximum iterations: {MAX_ITERATIONS} (or run indefinitely with Ctrl+C to stop)")
     print("Press Ctrl+C to stop\n")
     
     start_time = time.time()
     iteration = 0
     
     try:
-        for iteration in range(1, MAX_ITERATIONS + 1):
+        # Run indefinitely or until MAX_ITERATIONS
+        while iteration < MAX_ITERATIONS:
+            iteration += 1
             cycle_start_time = time.time()
             
-            print(f"\n🔄 [{iteration}/{MAX_ITERATIONS}] Starting cycle...")
+            print(f"\n🔄 [{iteration}] Starting cycle...")
             write_log(f"[CYCLE {iteration}] Starting at {datetime.now().strftime('%H:%M:%S')}")
             
             # Set XML file to read-only BEFORE opening MLBB
@@ -105,10 +107,8 @@ def run_mlbb_cycles(device_id, device_type):
             cycle_time = time.time() - cycle_start_time
             total_elapsed = time.time() - start_time
             avg_cycle_time = total_elapsed / iteration
-            remaining_cycles = MAX_ITERATIONS - iteration
-            eta = datetime.now() + timedelta(seconds=remaining_cycles * avg_cycle_time)
             
-            print(f"✅ Cycle {iteration} completed in {cycle_time:.2f}s | ETA: {eta.strftime('%H:%M:%S')}")
+            print(f"✅ Cycle {iteration} completed in {cycle_time:.2f}s")
             write_log(f"[CYCLE {iteration}] Completed in {cycle_time:.2f}s")
             
             # Brief pause between cycles
@@ -120,11 +120,15 @@ def run_mlbb_cycles(device_id, device_type):
     except Exception as e:
         print(f"\n❌ Error during cycle {iteration}: {str(e)}")
         write_log(f"[ERROR] Cycle {iteration} failed: {str(e)}")
+        # Continue to the next cycle instead of stopping
+        time.sleep(2)
+        return run_mlbb_cycles(device_id, device_type)  # Restart the function
     
     total_time = time.time() - start_time
     play_sound()
     print(f"\n🏁 Completed {iteration} cycles in {total_time/60:.2f} minutes")
-    print(f"📊 Average cycle time: {total_time/iteration:.2f}s")
+    if iteration > 0:
+        print(f"📊 Average cycle time: {total_time/iteration:.2f}s")
     write_log(f"\n--- Session finished at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Total Time: {total_time:.2f}s | Cycles: {iteration} ---\n")
 
 def main():
