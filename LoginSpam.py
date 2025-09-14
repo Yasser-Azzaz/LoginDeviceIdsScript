@@ -9,7 +9,7 @@ PACKAGE_NAME = "com.mobile.legends"
 XML_FILENAME = "com.mobile.legends.v2.playerprefs.xml"
 XML_PATH = f"/data/data/{PACKAGE_NAME}/shared_prefs/{XML_FILENAME}"
 
-WAIT_TIME = 10  # 13 seconds wait time
+WAIT_TIME = 8  # 13 seconds wait time
 LOG_FILE = "results.log"
 MAX_ITERATIONS = 999999  # Reduced to a reasonable maximum number
 
