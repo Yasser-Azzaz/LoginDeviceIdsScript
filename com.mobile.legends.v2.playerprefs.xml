@@ -47,7 +47,7 @@
     <string name="FriendChatProfile_1968160204_4543" />
     <long name="native_login_zone_id" value="4543" />
     <int name="Mode_Uninstall_Flag_360" value="0" />
-    <string name="JsonDeviceID">dec60d34c5ceb085b5b71dbcda613b931c1b0dd4972e2174bc27f6e3-afc1-472e-99cd-32266b8e3fd4</string>
+    <string name="JsonDeviceID">02862fc44effea3e7b0818e9572081e1d3ee524bdc36a7815b6407b-5237-41ba-86b6-b0d3dd5715be</string>
     <int name="job_num" value="0" />
     <int name="enable-uicamera-fastCull" value="0" />
     <int name="enable-swapbuffer-finish" value="0" />
@@ -210,7 +210,7 @@
     <int name="Mode_Uninstall_Flag_2001" value="0" />
     <int name="4543_1968160204_eCIT_BattleUISetupNew_ver" value="1" />
     <string name="4543_1968160204_ReportGooglePlayRecord_YMD">2025-9-15</string>
-    <string name="__Java_JsonDeviceID__">dec60d34c5ceb085b5b71dbcda613b931c1b0dd4972e2174bc27f6e3-afc1-472e-99cd-32266b8e3fd4</string>
+    <string name="__Java_JsonDeviceID__">02862fc44effea3e7b0818e9572081e1d3ee524bdc36a7815b6407b-5237-41ba-86b6-b0d3dd5715be</string>
     <string name="0_PushNotificatonActivity_PushEventNames_" />
     <int name="UnityGraphicsQuality" value="1" />
     <int name="LoginTipTimeoutThreshold" value="120" />
