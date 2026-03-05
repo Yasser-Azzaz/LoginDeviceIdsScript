@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <map>
     <int name="__IS_LOADED_LIBUNITY__" value="0" />
-    <string name="unity.player_sessionid">2094199232220725482</string>
+    <string name="unity.player_sessionid">6782973435988374793</string>
     <int name="Key_ResDirSplit" value="1" />
     <float name="LoadRes_VeryHigh_Score" value="10.09" />
     <int name="newcoldstart_cpp_use_fake_il2cpp" value="1" />
@@ -12,10 +12,10 @@
     <int name="switch_skip_login_local_session" value="0" />
     <float name="java_refresh_bitmap" value="0.0" />
     <int name="enable-animation-sleep-mode" value="0" />
-    <string name="__app_clickid_javaonly__">317</string>
+    <string name="__app_clickid_javaonly__">2099</string>
     <int name="PADPackage" value="1" />
     <int name="newcoldstart_mainctrl" value="999" />
-    <string name="__app_clickid__">315</string>
+    <string name="__app_clickid__">2100</string>
     <int name="InstallAPK_Pref" value="1" />
     <int name="__OffineBypass__" value="22" />
     <int name="FlogUploader.isFlogOpen" value="0" />
@@ -63,10 +63,10 @@
     <int name="__unityplayer_runinbackground__" value="0" />
     <int name="newcoldstart_cpp_login" value="999" />
     <int name="mt-mesh-optimize" value="0" />
-    <int name="m_CacheLoginUID" value="315" />
+    <int name="m_CacheLoginUID" value="2100" />
     <string name="__app_uuid__">b975168a-a6b8-46c4-a529-9568953b12ff</string>
     <long name="native_login_zone_id" value="9413" />
-    <string name="JsonDeviceID">64334b60a5f3fc48236902079dea8b63722df5f91e080584fc114055-7070-463d-ad20-ad3153c9471f</string>
+    <string name="JsonDeviceID">cd9e459ea708a948d5c2f5a6ca8838cf6e014658ad72280183de7deb-e06e-44ce-9f41-a09ba4e3e72e</string>
     <int name="job_num" value="0" />
     <int name="enable-uicamera-fastCull" value="0" />
     <int name="enable-swapbuffer-finish" value="0" />
@@ -90,7 +90,7 @@
     <int name="transform-increase" value="200" />
     <int name="__optimize_misc__" value="0" />
     <int name="__NATIVE_MESSAGE_RECEIVE_TEIM_OUT__" value="8000" />
-    <string name="__Java_JsonDeviceID__">64334b60a5f3fc48236902079dea8b63722df5f91e080584fc114055-7070-463d-ad20-ad3153c9471f</string>
+    <string name="__Java_JsonDeviceID__">cd9e459ea708a948d5c2f5a6ca8838cf6e014658ad72280183de7deb-e06e-44ce-9f41-a09ba4e3e72e</string>
     <int name="UnityGraphicsQuality" value="1" />
     <int name="enable-checkrendernull-performance" value="0" />
     <int name="newcoldstart_ifcclass" value="1" />
@@ -129,7 +129,7 @@
     <int name="use-24bit-insteadof-32bit-displayBuffer" value="0" />
     <int name="__WeakNetBypass__" value="22" />
     <int name="enable-swapbuffer-callbacks" value="0" />
-    <string name="__login_dns_parse_ipret__">161.202.222.68</string>
+    <string name="__login_dns_parse_ipret__">0.0.0.0</string>
     <int name="enable-shadervariants-collect" value="0" />
     <int name="ResLoadSwitch" value="1" />
     <int name="ps_looping_alpha_clip_less_value" value="0" />
@@ -145,7 +145,7 @@
     <int name="__login_skip_bulletin_time__" value="0" />
     <int name="__login_report_upload_enable__" value="0" />
     <int name="AutoHuntSkill" value="1" />
-    <string name="__clogin_connected_timestamp__">338806197</string>
+    <string name="__clogin_connected_timestamp__">58976520</string>
     <string name="9413_270720942_Key_MyLastGameVersion">1149.1</string>
     <string name="__CachedDRMID__">c351ee22eafffe5316f018d2e44fc4f8</string>
     <int name="login_all_process_failed_show_message" value="0" />
