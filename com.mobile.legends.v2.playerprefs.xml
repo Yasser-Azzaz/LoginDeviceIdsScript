@@ -12,15 +12,15 @@
     <int name="switch_skip_login_local_session" value="0" />
     <int name="enable-animation-sleep-mode" value="0" />
     <int name="Switch_Optimize_DeviceInfo" value="1" />
-    <string name="__app_clickid_javaonly__">9747</string>
+    <string name="__app_clickid_javaonly__">9979</string>
     <int name="Local_TotalMemory" value="7074" />
     <int name="Mode_Uninstall_Flag_340" value="0" />
     <string name="Analytics_SecondLastActiveUIName" />
-    <string name="__app_clickid__">9752</string>
+    <string name="__app_clickid__">9985</string>
     <int name="Mode_Uninstall_Flag_220" value="0" />
     <int name="__OffineBypass__" value="22" />
     <int name="FlogUploader.isFlogOpen" value="0" />
-    <string name="__sLoginAccToken__">cHABAUMBMEQBMIBBJXT12C14potORKVUQWfjB5MlrHm2gw5LZzVqBcb5GC1JpMh-TARCKDE4NzE4N2IyNDgyYzRiZDMxYjI3ZGM4Y2I1MDViMmZhOTg1YWQ1Y2OA</string>
+    <string name="__sLoginAccToken__">cHABAUMBMEQBMIBBJXWCazJeDlSVpCneNy8PlIOK8ckiwt4JOtSyDKPNxUzi44wCrQRCKDljMGIxNDczYzA0ZmU1NmUyYzZlOTBkMzRjNzUwMzM1YWUwNTJkZGSA</string>
     <int name="_new_init_language_" value="1" />
     <int name="login_use_game_server_proxy" value="0" />
     <int name="4371_2111702628_CitizensLeague_ThisWeekCoin" value="0" />
@@ -45,25 +45,26 @@
     <int name="__native_login_HasAreaTag__" value="1" />
     <int name="Screenmanager%20Resolution%20Height" value="853" />
     <int name="enable-shadervariants-warmup-jobs" value="0" />
-    <int name="ping_prefAllStart" value="1774983259" />
+    <int name="ping_prefAllStart" value="1774988789" />
     <int name="__max_connect_count__" value="1" />
     <string name="__LastPatchNoDiffVersion__">1170.2</string>
     <int name="LoginAuth_MapConfigID" value="1" />
-    <int name="_LoginTimePrefKey_" value="1774983251" />
+    <int name="_LoginTimePrefKey_" value="1774988782" />
     <int name="mt-mesh-optimize" value="1561" />
-    <long name="native_login_zone_id" value="2032" />
+    <long name="native_login_zone_id" value="4371" />
     <int name="Mode_Uninstall_Flag_360" value="0" />
     <string name="NewFlowBackActivity6504371_2111702628_2601121956SignIn2025RedPoint" />
-    <string name="JsonDeviceID">df9699e49bab8780a311a525d081b61de0641d824c850303755dfd80-1be9-4d9d-b39d-1cbe829e4b69</string>
+    <string name="JsonDeviceID">57c74f1fc59bf577ffd30c98a705e9e74f010f7769cfae53cede4dbc-df24-4ba8-a917-893dbfe3a934</string>
     <int name="job_num" value="0" />
     <int name="enable-uicamera-fastCull" value="0" />
+    <int name="Mode_Uninstall_Flag_120" value="0" />
     <int name="enable-swapbuffer-finish" value="0" />
     <int name="newcoldstart_cpp_use_local_server" value="9" />
     <int name="GPMEnableVirtualMemory" value="0" />
     <int name="gfx-enable-gfx-jobs" value="0" />
     <int name="__open_offline_login__" value="0" />
     <string name="Fake804Lv">0</string>
-    <int name="4371_2111702628_eCIT_RedDotNew_ver" value="3153" />
+    <int name="4371_2111702628_eCIT_RedDotNew_ver" value="3224" />
     <string name="4371_2111702628_ReportRaceLive_YMD">2026-3-31</string>
     <int name="___udav_ios" value="0" />
     <string name="4371_2111702628_EmotionKeyList">3607%2C3702%2C3631%2C3594%2C3574%2C13029%2C13048%2C13083%2C13049%2C13019%2C13020%2C13018%2C13021%2C13084%2C13023%2C13127%2C13030%2C13033%2C13032%2C13022%2C13005%2C13009%2C13017%2C13016%2C13011%2C13013%2C13015%2C13006%2C13012%2C13128%2C13004%2C13010%2C13002%2C13001%2C13003%2C13014%2C13025%2C13026%2C13136%2C13135%2C13137%2C3738%2C3956%2C13114%2C13047%2C13045%2C13031%2C13046%2C13034%2C13044%2C13035%2C13024%2C13115%2C13117%2C13008%2C13007%2C13027%2C13028%2C13000%2C13116%2C3322%2C3495%2C13125%2C3830%2C13126%2C3439%2C3392%2C13129</string>
@@ -109,7 +110,7 @@
     <int name="IsDeviceSupportAstc" value="1" />
     <string name="4371_2111702628_SocialContestMD5">57D44E144F5511D0A3FAEC18EF58433E</string>
     <int name="switch_skip_login_keep_time_ms" value="40000" />
-    <string name="4371_2111702628_DairyFreeRewardRefreshTimeStamp">1774983259</string>
+    <string name="4371_2111702628_DairyFreeRewardRefreshTimeStamp">1774988789</string>
     <int name="__UNITY_PLAYERPREFS_VERSION__" value="1" />
     <int name="JsonLocalVersion__once__" value="1" />
     <int name="switch_skip_login_open" value="0" />
@@ -159,7 +160,7 @@
     <int name="login_all_process_time_out" value="45" />
     <int name="_PackageLevelIDPref_NewRule" value="99" />
     <int name="_isAccountBindInPreLoadingOpen_" value="1" />
-    <string name="unity.player_sessionid">3456692753632780367</string>
+    <string name="unity.player_sessionid">5074747698391755805</string>
     <int name="4371_2111702628_CitizensLeague_CurCompetitionMatchLv" value="0" />
     <float name="LoadRes_VeryHigh_Score" value="10.09" />
     <int name="newcoldstart_cpp_use_fake_il2cpp" value="1" />
@@ -189,11 +190,11 @@
     <int name="__is_open_login_udp__" value="0" />
     <int name="__ReportClient2Shark_Crush_Protected__" value="0" />
     <int name="_accountBindInPreLoadingDayMax_" value="5" />
-    <int name="HeroAdjustActivity_SaveReturnLoginTime" value="1774983260" />
+    <int name="HeroAdjustActivity_SaveReturnLoginTime" value="1774988790" />
     <int name="ReCheckDownloadReason" value="16" />
     <int name="_native_newcoldstart_cpp_update_" value="0" />
     <int name="Mode_Uninstall_Flag_999" value="0" />
-    <int name="new_player_ret2111702628" value="1774983256" />
+    <int name="new_player_ret2111702628" value="1774988788" />
     <int name="__csharp_report_mainstep__" value="0" />
     <int name="ps_enable_update_on_demand" value="0" />
     <int name="enable-empty-mesh-culling" value="0" />
@@ -210,7 +211,7 @@
     <int name="check-act-ready" value="1" />
     <int name="newcoldstart_mainctrl_result" value="1" />
     <int name="__unityplayer_runinbackground__" value="0" />
-    <int name="m_CacheLoginUID" value="9752" />
+    <int name="m_CacheLoginUID" value="9985" />
     <string name="__app_uuid__">6dd1d972-8148-4b10-88b1-0c8d7ba7c9d3</string>
     <string name="ActLclCfgMgrLastUnitKey2">4371211170262810</string>
     <int name="NewUIHeroInteractLv_4371_2111702628_" value="1" />
@@ -222,7 +223,7 @@
     <int name="newcoldstart_cppcopyloadso4cpp" value="1" />
     <string name="RWPathRec">%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.mobile.legends%2Ffiles</string>
     <int name="Mode_Uninstall_Flag_400" value="0" />
-    <int name="ActCfgCycleClearTime" value="1774983256" />
+    <int name="ActCfgCycleClearTime" value="1774988788" />
     <float name="BytesBenchScore" value="10.0916" />
     <string name="__GSDK_CachedDID__">7531265052557772344</string>
     <int name="Key_MyLastZoneId" value="4371" />
@@ -239,7 +240,7 @@
     <int name="Mode_Uninstall_Flag_530" value="0" />
     <int name="Mode_Uninstall_Flag_2002" value="0" />
     <int name="Mode_Uninstall_Flag_2001" value="0" />
-    <string name="__Java_JsonDeviceID__">df9699e49bab8780a311a525d081b61de0641d824c850303755dfd80-1be9-4d9d-b39d-1cbe829e4b69</string>
+    <string name="__Java_JsonDeviceID__">57c74f1fc59bf577ffd30c98a705e9e74f010f7769cfae53cede4dbc-df24-4ba8-a917-893dbfe3a934</string>
     <string name="0_PushNotificatonActivity_PushEventNames_" />
     <int name="UnityGraphicsQuality" value="1" />
     <float name="BENCH_SDK_CPU_SCORE" value="10.0789" />
@@ -259,12 +260,12 @@
     <string name="4371_2111702628_ReportGooglePlayRecord_YMD">2026-3-31</string>
     <string name="OfflineModeData">2111702628%7C1%7C%7C%7C0%3B3%3B6%3B18%3B39%3B85%3B</string>
     <int name="_recordingINLA" value="0" />
-    <int name="Report_client_HeroVoiceLangUse" value="1774983256" />
+    <int name="Report_client_HeroVoiceLangUse" value="1774988788" />
     <string name="PlayerPrefs_Key_Activity_142_669">1%3B1%3B0%3B120000%3B2-1300-10000%2616-300-10000%2664-700-5000%26128-350-1000%26256-45-1000%26512-25-1000%261024-16-30%262048-12-30%264096-2-10%268192-2-10%2640000-3-5%3B1%3B1</string>
     <int name="Key_TcpSocketCheckCrt_C" value="1" />
     <int name="force-invalidate-depth-stencil" value="1" />
     <string name="Analytics_LastActiveUIName">UI_CreateRole</string>
-    <string name="_AppClickId_">9752</string>
+    <string name="_AppClickId_">9985</string>
     <int name="Mode_Uninstall_Flag_270" value="0" />
     <int name="Mode_Uninstall_Flag_391" value="0" />
     <int name="gfx-device-waitfor-present-sync-point" value="0" />
@@ -272,12 +273,12 @@
     <int name="native_binarypatchmd5_check" value="0" />
     <int name="m_bTurboLoadLogin97_13" value="1" />
     <int name="gfx-enable-native-gfx-jobs" value="0" />
-    <int name="ping_prefCountryStart" value="1774983259" />
+    <int name="ping_prefCountryStart" value="1774988789" />
     <string name="mt-mesh-bundle-set">PVP_049_extlow_add.unity3d%3BPVP_049_high_add.unity3d%3BPVP_049_low.unity3d%3BPVP_049_low_add.unity3d%3BPVP_049_add.unity3d</string>
     <string name="4371_2111702628_BattleUISetupHeroUsage">%7B%22__saveNum%22%3A0%2C%22heroUsagePrefKeys%22%3A%7B%2253%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2243%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2273%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2263%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2293%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2283%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2213%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2233%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2223%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2242%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2252%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2262%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2272%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2282%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2292%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22122%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22129%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22121%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2212%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2222%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2232%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2295%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2285%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2275%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2265%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2255%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2245%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2235%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22116%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22132%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%221%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%223%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%222%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%225%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%224%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%227%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%226%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2225%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%228%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22110%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2294%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2274%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2284%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2254%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2264%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2234%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2244%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22126%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22102%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22101%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2214%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2224%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22128%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22120%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2287%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2277%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2297%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2247%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2237%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2267%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2257%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22112%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22115%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22111%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22114%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22119%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2227%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2217%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22107%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2286%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2296%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2236%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2246%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22103%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2266%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22106%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22125%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22108%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22124%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2216%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2226%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22100%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2271%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2261%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2251%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2241%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2291%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2281%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2259%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2249%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2239%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2229%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2299%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2289%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2279%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2269%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2219%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2231%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2221%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2211%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2260%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2270%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2240%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2250%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22131%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22130%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2280%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2290%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2248%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2258%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2228%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2238%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2288%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2298%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2268%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2278%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22127%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2276%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22105%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22123%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%229%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2218%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22113%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22118%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22117%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2256%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22109%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%22104%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2220%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2230%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2215%22%3A%224371_2111702628_BattleUISetupConf__type1%22%2C%2210%22%3A%224371_2111702628_BattleUISetupConf__type1%22%7D%2C%22heroUsages%22%3A%7B%2253%22%3A2%2C%2243%22%3A2%2C%2273%22%3A2%2C%2263%22%3A2%2C%2293%22%3A2%2C%2283%22%3A2%2C%2213%22%3A2%2C%2233%22%3A2%2C%2223%22%3A2%2C%2242%22%3A2%2C%2252%22%3A2%2C%2262%22%3A2%2C%2272%22%3A2%2C%2282%22%3A2%2C%2292%22%3A2%2C%22122%22%3A2%2C%22129%22%3A2%2C%22121%22%3A2%2C%2212%22%3A2%2C%2222%22%3A2%2C%2232%22%3A2%2C%2295%22%3A2%2C%2285%22%3A2%2C%2275%22%3A2%2C%2265%22%3A2%2C%2255%22%3A2%2C%2245%22%3A2%2C%2235%22%3A2%2C%22116%22%3A2%2C%22132%22%3A2%2C%221%22%3A2%2C%223%22%3A2%2C%222%22%3A2%2C%225%22%3A2%2C%224%22%3A2%2C%227%22%3A2%2C%226%22%3A2%2C%2225%22%3A2%2C%228%22%3A2%2C%22110%22%3A2%2C%2294%22%3A2%2C%2274%22%3A2%2C%2284%22%3A2%2C%2254%22%3A2%2C%2264%22%3A2%2C%2234%22%3A2%2C%2244%22%3A2%2C%22126%22%3A2%2C%22102%22%3A2%2C%22101%22%3A2%2C%2214%22%3A2%2C%2224%22%3A2%2C%22128%22%3A2%2C%22120%22%3A2%2C%2287%22%3A2%2C%2277%22%3A2%2C%2297%22%3A2%2C%2247%22%3A2%2C%2237%22%3A2%2C%2267%22%3A2%2C%2257%22%3A2%2C%22112%22%3A2%2C%22115%22%3A2%2C%22111%22%3A2%2C%22114%22%3A2%2C%22119%22%3A2%2C%2227%22%3A2%2C%2217%22%3A2%2C%22107%22%3A2%2C%2286%22%3A2%2C%2296%22%3A2%2C%2236%22%3A2%2C%2246%22%3A2%2C%22103%22%3A2%2C%2266%22%3A2%2C%22106%22%3A2%2C%22125%22%3A2%2C%22108%22%3A2%2C%22124%22%3A2%2C%2216%22%3A2%2C%2226%22%3A2%2C%22100%22%3A2%2C%2271%22%3A2%2C%2261%22%3A2%2C%2251%22%3A2%2C%2241%22%3A2%2C%2291%22%3A2%2C%2281%22%3A2%2C%2259%22%3A2%2C%2249%22%3A2%2C%2239%22%3A2%2C%2229%22%3A2%2C%2299%22%3A2%2C%2289%22%3A2%2C%2279%22%3A2%2C%2269%22%3A2%2C%2219%22%3A2%2C%2231%22%3A2%2C%2221%22%3A2%2C%2211%22%3A2%2C%2260%22%3A2%2C%2270%22%3A2%2C%2240%22%3A2%2C%2250%22%3A2%2C%22131%22%3A2%2C%22130%22%3A2%2C%2280%22%3A2%2C%2290%22%3A2%2C%2248%22%3A2%2C%2258%22%3A2%2C%2228%22%3A2%2C%2238%22%3A2%2C%2288%22%3A2%2C%2298%22%3A2%2C%2268%22%3A2%2C%2278%22%3A2%2C%22127%22%3A2%2C%2276%22%3A2%2C%22105%22%3A2%2C%22123%22%3A2%2C%229%22%3A2%2C%2218%22%3A2%2C%22113%22%3A2%2C%22118%22%3A2%2C%22117%22%3A2%2C%2256%22%3A2%2C%22109%22%3A2%2C%22104%22%3A2%2C%2220%22%3A2%2C%2230%22%3A2%2C%2215%22%3A2%2C%2210%22%3A2%7D%7D</string>
     <int name="newcoldstart_skip_refresh_if_lack_disk_space" value="0" />
     <int name="enable-swapbuffer-callbacks" value="1" />
-    <string name="__login_dns_parse_ipret__">119.81.63.240</string>
+    <string name="__login_dns_parse_ipret__">0.0.0.0</string>
     <int name="ResLoadSwitch" value="1" />
     <int name="ps_looping_alpha_clip_less_value" value="0" />
     <string name="LoadUtilSwitchParam">1%3B1%3B1%3B1%3B1%3B1%3B15%3B0%3B0%3B1%3B0%3B0%3B1%3B1</string>
@@ -293,7 +294,7 @@
     <int name="4371_2111702628__UISetupProtectiveRepairData" value="1" />
     <int name="loginquest" value="100" />
     <int name="Key_EnableLoginLoadingCost" value="0" />
-    <long name="__SDKNLlastmodified__" value="1774968765271" />
+    <long name="__SDKNLlastmodified__" value="1774985668396" />
     <int name="Mode_Uninstall_Flag_280" value="0" />
     <string name="4371_2111702628_EmotionValueList">0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0</string>
     <string name="4371_2111702628_BattleUISetupConf__default">%7B%22__version%22%3A2%2C%22name%22%3A%22default%22%2C%22idx%22%3A1%2C%22panels%22%3A%7B%7D%7D</string>

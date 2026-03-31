@@ -9,6 +9,7 @@ import platform
 DEVICE_IDS_FILE = "device_ids.txt"
 PACKAGE_NAME = "com.mobile.legends"
 XML_FILENAME = "com.mobile.legends.v2.playerprefs.xml"
+
 XML_PATH = f"/data/data/{PACKAGE_NAME}/shared_prefs/{XML_FILENAME}"
 TEMP_XML_FILE = XML_FILENAME
 
