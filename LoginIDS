@@ -1,0 +1,209 @@
+import subprocess
+import time
+import os
+import xml.etree.ElementTree as ET
+from tqdm import tqdm
+import cv2
+import numpy as np
+from skimage.metrics import structural_similarity as ssim
+
+DEVICE_IDS_FILE = "device_ids.txt"
+BAD_IDS_FILE = "bad_ID.txt"
+PACKAGE_NAME = "com.mobile.legends"
+XML_FILENAME = "com.mobile.legends.v2.playerprefs.xml"
+
+XML_PATH = f"/data/data/{PACKAGE_NAME}/shared_prefs/{XML_FILENAME}"
+TEMP_XML_FILE = XML_FILENAME
+
+EMU_SS_PATH = os.path.expanduser(r"~\AppData\Roaming\XuanZhi9\XuanZhi9\Pictures")
+PHONE_SS_PATH = os.path.expanduser(r"~\Desktop\MlbbDeviceIdsSceenShots")
+
+BAD_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bad_images")
+RETRY_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "retry_images")
+
+# --- Threshold Settings ---
+BAD_THRESHOLD = 0.85    # 85% for Bad IDs
+RETRY_THRESHOLD = 0.99  # 99% for Retries (near perfect match)
+
+WAIT_TIMES = {'emulator': 22, 'phone': 10}
+LOG_FILE = "results.log"
+MAX_IDS_TO_PROCESS = 20000
+
+# ──────────────────────────────────────────────
+# ADB & FILE HELPERS
+# ──────────────────────────────────────────────
+
+def run(cmd):
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
+    return result.stdout.strip()
+
+def list_devices():
+    output = run(["adb", "devices", "-l"])
+    lines = output.splitlines()[1:]
+    devices = []
+    for line in lines:
+        if not line.strip(): continue
+        parts = line.split()
+        if len(parts) < 2: continue
+        device_id = parts[0]
+        model_info = next((p for p in parts if p.startswith("model:")), "model:Unknown")
+        model_name = model_info.split(":")[1]
+        device_type = "Emulator" if "emulator" in device_id.lower() else "Phone"
+        devices.append((device_id, model_name, device_type))
+    return devices
+
+def choose_device(devices):
+    print("\n📱 Connected Devices:")
+    for i, (_, model, dtype) in enumerate(devices):
+        print(f"[{i}] {model} ({dtype})")
+    while True:
+        idx = input("\nSelect device: ")
+        if idx.isdigit() and 0 <= int(idx) < len(devices):
+            return devices[int(idx)]
+        print("⚠ Invalid selection.")
+
+def read_ids():
+    if not os.path.exists(DEVICE_IDS_FILE): return []
+    with open(DEVICE_IDS_FILE, "r") as f:
+        return [line.strip() for line in f if line.strip()][:MAX_IDS_TO_PROCESS]
+
+def pull_xml(device_id):
+    run(["adb", "-s", device_id, "shell", "su", "-c", f"cp {XML_PATH} /sdcard/{XML_FILENAME}"])
+    run(["adb", "-s", device_id, "pull", f"/sdcard/{XML_FILENAME}", TEMP_XML_FILE])
+
+def update_device_id(device_id_value):
+    tree = ET.parse(TEMP_XML_FILE)
+    root = tree.getroot()
+    for string in root.findall("string"):
+        if string.attrib.get("name") in ["JsonDeviceID", "__Java_JsonDeviceID__"]:
+            string.text = device_id_value
+    tree.write(TEMP_XML_FILE, encoding="utf-8", xml_declaration=True)
+
+def push_xml_and_lock(device_id):
+    run(["adb", "-s", device_id, "push", TEMP_XML_FILE, f"/sdcard/{XML_FILENAME}"])
+    run(["adb", "-s", device_id, "shell", "su", "-c", f"cp /sdcard/{XML_FILENAME} {XML_PATH}"])
+    run(["adb", "-s", device_id, "shell", "su", "-c", f"chmod 444 {XML_PATH}"])
+
+def launch_mlbb(device_id):
+    run(["adb", "-s", device_id, "shell", "am", "force-stop", PACKAGE_NAME])
+    run(["adb", "-s", device_id, "shell", "monkey", "-p", PACKAGE_NAME, "-c", "android.intent.category.LAUNCHER", "1"])
+
+def close_mlbb(device_id):
+    run(["adb", "-s", device_id, "shell", "am", "force-stop", PACKAGE_NAME])
+
+def take_screenshot(device_id, filename, device_type):
+    remote_path = f"/sdcard/Pictures/{filename}.png"
+    run(["adb", "-s", device_id, "shell", "screencap", "-p", remote_path])
+    save_dir = PHONE_SS_PATH if device_type == "Phone" else EMU_SS_PATH
+    os.makedirs(save_dir, exist_ok=True)
+    local_path = os.path.join(save_dir, f"{filename}.png")
+    run(["adb", "-s", device_id, "pull", remote_path, local_path])
+    return local_path
+
+def write_log(line):
+    with open(LOG_FILE, "a", encoding="utf-8") as log:
+        log.write(line + "\n")
+
+def write_bad_id(device_id_value):
+    with open(BAD_IDS_FILE, "a", encoding="utf-8") as f:
+        f.write(device_id_value + "\n")
+
+# ──────────────────────────────────────────────
+# IMAGE VERIFICATION
+# ──────────────────────────────────────────────
+
+def load_images_from_dir(directory):
+    if not os.path.isdir(directory):
+        os.makedirs(directory, exist_ok=True)
+        return []
+    refs = []
+    for fname in os.listdir(directory):
+        if fname.lower().endswith((".png", ".jpg", ".jpeg")):
+            path = os.path.join(directory, fname)
+            img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+            if img is not None:
+                refs.append((fname, img))
+    return refs
+
+def check_match(img_path, reference_list, threshold):
+    """Generic match checker using a passed-in threshold."""
+    shot = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
+    if shot is None: return False, None, 0.0
+    
+    for ref_name, ref_gray in reference_list:
+        h, w = ref_gray.shape
+        shot_resized = cv2.resize(shot, (w, h))
+        score, _ = ssim(shot_resized, ref_gray, full=True)
+        
+        if score >= threshold:
+            return True, ref_name, score
+            
+    return False, None, 0.0
+
+# ──────────────────────────────────────────────
+# MAIN LOOP
+# ──────────────────────────────────────────────
+
+def handle_device(device_id, device_type, ids):
+    wait_time = WAIT_TIMES[device_type.lower()]
+    screenshot_path = EMU_SS_PATH if device_type == "Emulator" else PHONE_SS_PATH
+    
+    bad_refs = load_images_from_dir(BAD_IMAGES_DIR)
+    retry_refs = load_images_from_dir(RETRY_IMAGES_DIR)
+    
+    print(f"✅ Loaded {len(bad_refs)} Bad triggers and {len(retry_refs)} Retry triggers.")
+    pull_xml(device_id) 
+
+    for i, did in enumerate(tqdm(ids, desc="Processing", unit="id")):
+        index = i + 1
+        ss_full_path = os.path.join(screenshot_path, f"{index}.png")
+        if os.path.exists(ss_full_path): continue
+
+        print(f"\n\033[94m🔄 [{index}/{len(ids)}] ID:\033[0m {did}")
+        update_device_id(did)
+        
+        attempt = 0
+        skip_id = False
+
+        while True:
+            attempt += 1
+            push_xml_and_lock(device_id)
+            launch_mlbb(device_id)
+            time.sleep(wait_time)
+
+            temp_path = take_screenshot(device_id, f"_temp_{index}", device_type)
+            close_mlbb(device_id)
+
+            # 1. Hard Fail check (85% threshold)
+            is_bad, b_name, b_score = check_match(temp_path, bad_refs, BAD_THRESHOLD)
+            if is_bad:
+                print(f"   \033[91m[✘] BAD ID: Matched '{b_name}' ({b_score:.2%}). Saving to bad_ID.txt.\033[0m")
+                write_bad_id(did)
+                write_log(f"[BAD] ID {index} - {did} (Matched {b_name})")
+                os.remove(temp_path)
+                skip_id = True
+                break
+
+            # 2. Soft Fail check (99% threshold)
+            is_retry, r_name, r_score = check_match(temp_path, retry_refs, RETRY_THRESHOLD)
+            if is_retry:
+                print(f"   \033[93m[!] RETRY: Matched '{r_name}' ({r_score:.2%}). Re-launching ID...\033[0m")
+                os.remove(temp_path)
+                continue 
+
+            # 3. Clean screen
+            print(f"   \033[92m[✓] Clean Screen. Saving as {index}.png\033[0m")
+            os.rename(temp_path, ss_full_path)
+            write_log(f"[OK] ID {index} - {did} (Attempts: {attempt})")
+            break
+        
+        if skip_id: continue
+
+def main():
+    devices = list_devices()
+    if not devices: return
+    selected = choose_device(devices)
+    handle_device(selected[0], selected[2], read_ids())
+
+if __name__ == "__main__":
+    main()
