@@ -192,6 +192,11 @@ def handle_device(device_id, device_type, ids):
 
     reference_images = load_reference_images()
 
+    # --- Initial Pull Only ---
+    print(f"📥 Pulling base XML for this session...")
+    pull_xml(device_id) 
+    # -------------------------
+
     total = len(ids)
 
     for i, did in enumerate(tqdm(ids, desc="Processing", unit="id")):
@@ -209,17 +214,10 @@ def handle_device(device_id, device_type, ids):
         print(f"\n\033[94m🔄 [{index}/{total}] ID:\033[0m {did}")
 
         try:
-            # ── PREPARATION: delete stale XML, launch game to generate fresh file ──
-            delete_xml_file(device_id)
-            launch_mlbb(device_id)
-            time.sleep(wait_time)
-            close_mlbb(device_id)
-            time.sleep(2)
-
-            pull_xml(device_id)
+            # Update the local XML with the new ID
             update_device_id(did)
 
-            # ── VERIFICATION LOOP: retry same ID until screenshot is clean ──
+            # ── VERIFICATION LOOP ──
             while True:
                 attempt += 1
                 print(f"\n   🔁 Attempt #{attempt} for ID {index}")
@@ -252,15 +250,9 @@ def handle_device(device_id, device_type, ids):
                         os.remove(temp_ss_path)
                     except OSError:
                         pass
-
-                    # Re-prep: delete XML, let game regenerate, re-pull, re-inject ID
-                    delete_xml_file(device_id)
-                    launch_mlbb(device_id)
-                    time.sleep(wait_time)
-                    close_mlbb(device_id)
-                    time.sleep(2)
-                    pull_xml(device_id)
-                    update_device_id(did)
+                    
+                    # Note: We no longer "regenerate" here, we just loop back 
+                    # and re-push the ID to the existing XML.
 
                 else:
                     # Screenshot is clean — rename temp to final and move on
@@ -279,8 +271,6 @@ def handle_device(device_id, device_type, ids):
                 close_mlbb(device_id)
             except Exception:
                 pass
-
-
 def main():
     devices = list_devices()
     if not devices:

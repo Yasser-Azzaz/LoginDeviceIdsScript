@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <map>
+    <string name="ping_udpCountrydata">0</string>
     <string name="_accountBindInPreLoadingRank_">MT%3BFB%3BGP%3BTT%7CMT%3BFB%7CMT%2C18430%3BFB%2C43426</string>
     <string name="CitizensLeague_ShopBuyFlag_4392">1-1%3B2-1%3B</string>
     <int name="__IS_LOADED_LIBUNITY__" value="0" />
@@ -14,15 +15,15 @@
     <int name="switch_skip_login_local_session" value="0" />
     <int name="enable-animation-sleep-mode" value="0" />
     <int name="Switch_Optimize_DeviceInfo" value="1" />
-    <string name="__app_clickid_javaonly__">4995</string>
+    <string name="__app_clickid_javaonly__">5001</string>
     <int name="Local_TotalMemory" value="7074" />
     <int name="Mode_Uninstall_Flag_340" value="0" />
     <string name="Analytics_SecondLastActiveUIName" />
-    <string name="__app_clickid__">4996</string>
+    <string name="__app_clickid__">5002</string>
     <int name="Mode_Uninstall_Flag_220" value="0" />
     <int name="__OffineBypass__" value="22" />
     <int name="FlogUploader.isFlogOpen" value="0" />
-    <string name="__sLoginAccToken__">cHABAUMBMEQBMIBBJaJTP8Vmme8E2DTj_SBX7C9j_T823az3XiY40AEcwLEMULvGbgRCKDI0OThhODRiNzlmM2JkNjQyNGZmMjNiNjk3MzMzYjUyMDkzZjkxMTSA</string>
+    <string name="__sLoginAccToken__">cHABAUMBMEQBMIBBJQAAwsMBkstwuJxSvIa7lmcVOjlOzZf8hD6UbefJRu-d-0oh_gRCKDc4NGQ1OTM1YTM3YmE4ZGZjOGQ2YzIzNTU0NDBkNDBjOTQ0NDBhMDCA</string>
     <int name="_new_init_language_" value="1" />
     <int name="login_use_game_server_proxy" value="0" />
     <int name="Key_ResDirSplit_OK" value="1" />
@@ -33,11 +34,12 @@
     <int name="__NativeLoadEnable__" value="0" />
     <string name="4392_2116096109_EmotionKeyList">3607%2C3702%2C3631%2C3594%2C3574%2C13029%2C13048%2C13083%2C13049%2C13019%2C13020%2C13018%2C13021%2C13084%2C13023%2C13127%2C13030%2C13033%2C13032%2C13022%2C13005%2C13009%2C13017%2C13016%2C13011%2C13013%2C13015%2C13006%2C13012%2C13128%2C13004%2C13010%2C13002%2C13001%2C13003%2C13014%2C13025%2C13026%2C13136%2C13135%2C13137%2C3738%2C3956%2C13114%2C13047%2C13045%2C13031%2C13046%2C13034%2C13044%2C13035%2C13024%2C13115%2C13117%2C13008%2C13007%2C13027%2C13028%2C13000%2C13116%2C3322%2C3495%2C13125%2C3830%2C13126%2C3439%2C3392%2C13129</string>
     <int name="enable-particle-del-modules" value="1" />
-    <string name="LoadRes_VeryHigh_ScoreSource">LocalMachine</string>
+    <string name="LoadRes_VeryHigh_ScoreSource">ByteBench</string>
     <string name="4392_2116096109_BattleUISetupConf__pure">%7B%22idx%22%3A4%2C%22name%22%3A%22pure%22%2C%22__editInfos%22%3A%7B%22m_UI_MiniMap%5C%2Fm_TL%5C%2Fm_Map%22%3A%7B%22nodeId%22%3A101%2C%22pos%22%3A%7B%22y%22%3A220%2C%22x%22%3A-469%7D%2C%22root%22%3A%22m_UI_MiniMap%22%2C%22path%22%3A%22m_TL%5C%2Fm_Map%22%2C%22alpha%22%3A0.7%2C%22size%22%3A1%7D%7D%2C%22__version%22%3A2%2C%22panels%22%3A%7B%7D%7D</string>
     <int name="__native_login_RoleLevel__" value="1" />
     <int name="Mode_Uninstall_Flag_230" value="0" />
     <int name="Key_MCNet_RewriteEffectTimes" value="1" />
+    <int name="Mode_Uninstall_Flag_3030" value="0" />
     <int name="4392_2116096109__UISetupProtectiveNewAddLeft_Version1" value="1" />
     <int name="beUseIntPtrInActivity" value="0" />
     <int name="Mode_Uninstall_Flag_354" value="0" />
@@ -51,18 +53,19 @@
     <string name="4392_2116096109_BattleUISetupConf__type1">%7B%22__version%22%3A2%2C%22name%22%3A%22type1%22%2C%22idx%22%3A2%2C%22panels%22%3A%7B%7D%7D</string>
     <int name="Screenmanager%20Resolution%20Height" value="853" />
     <int name="enable-shadervariants-warmup-jobs" value="0" />
-    <string name="4392_2116096109_DairyFreeRewardRefreshTimeStamp">1775141094</string>
-    <int name="ping_prefAllStart" value="1775141094" />
+    <string name="4392_2116096109_DairyFreeRewardRefreshTimeStamp">1775141478</string>
+    <int name="ping_prefAllStart" value="1775141467" />
     <int name="__max_connect_count__" value="1" />
     <string name="__LastPatchNoDiffVersion__">1170.2</string>
     <int name="LoginAuth_MapConfigID" value="1" />
-    <int name="_LoginTimePrefKey_" value="1775141087" />
+    <int name="_LoginTimePrefKey_" value="1775141473" />
     <int name="mt-mesh-optimize" value="0" />
+    <string name="4392_2116096109_LiveStreamListManager_NewTag_YouTube_10_8e32d0331be20af4b4f3da7a26ab194d">eaed2293fa93b25da3a4953f81ba7fed</string>
     <long name="native_login_zone_id" value="4392" />
     <int name="Mode_Uninstall_Flag_360" value="0" />
-    <string name="JsonDeviceID">25adf7d37317e2a180079823305419defa58128c58a552afaa28c931-d8e6-41d3-9083-6b0cd3d7b5a8</string>
-    <int name="job_num" value="0" />
+    <string name="JsonDeviceID">8797a6bdf4911016e5e6f31bc51becdad3094d350f9f4cc7818542ba-c9db-4000-9a01-af443ae4b72c</string>
     <int name="enable-uicamera-fastCull" value="0" />
+    <int name="job_num" value="0" />
     <int name="enable-swapbuffer-finish" value="0" />
     <int name="newcoldstart_cpp_use_local_server" value="9" />
     <int name="GPMEnableVirtualMemory" value="0" />
@@ -72,6 +75,7 @@
     <int name="___udav_ios" value="0" />
     <int name="Key_DisableOldPing" value="0" />
     <int name="__ENABLE_LIBUNITY_COUNT__" value="0" />
+    <string name="4392_2116096109_LiveStreamListManager_NewTag_YouTube_10_2e745b50b3defac77590541633ce0354">1577dd0bf22ff9adab91b58666315da8</string>
     <int name="newcoldstart_cpp_loginmd5" value="9" />
     <int name="IsMinimalDevice" value="0" />
     <int name="WidgetListOpt" value="1" />
@@ -80,11 +84,13 @@
     <int name="Mode_Uninstall_Flag_130" value="0" />
     <string name="FirstLoadProValueEff">loadproeff_13_add</string>
     <int name="transform-increase" value="200" />
+    <int name="Widget_Default_Set" value="1" />
     <string name="4392_2116096109_ReportRaceLive_TotalViewingTimeMS">0</string>
     <int name="__optimize_misc__" value="0" />
     <int name="__NATIVE_MESSAGE_RECEIVE_TEIM_OUT__" value="8000" />
     <int name="playerprefs_check" value="1" />
     <string name="4392_2116096109_eCIT_BattleUISetupNew_value">cFABcAACUgJwAJwDEb8CAmQDUQSPAUUAgHAAogQRvgECZANRBI4BRQCAAwWAYQEAwL2aLwAAAgGA</string>
+    <int name="Analytics_LastGameActiveUIName" value="12" />
     <int name="enable-checkrendernull-performance" value="1" />
     <int name="enable-remapperopt" value="0" />
     <string name="4392_2116096109__LiveStreamListManager_RecommendMD5_">3ad267afb2b25ee4f145cea9c0e57201</string>
@@ -93,18 +99,21 @@
     <int name="enable-msaa-global" value="1" />
     <int name="Screenmanager%20Resolution%20Width" value="1829" />
     <string name="GameTurboSwitchCache" />
-    <int name="4392_2116096109_eCIT_RedDotNew_ver" value="1596" />
+    <int name="4392_2116096109_eCIT_RedDotNew_ver" value="1597" />
+    <int name="Key_LStep_OnExitGame" value="1" />
     <string name="NativeLogin_ReportServer">global-report.ml.youngjoygame.com</string>
     <string name="JsonLocalVersion">2.1.61.1170.2</string>
     <int name="__cachedbytescore__" value="10" />
     <int name="CleanSkinResOpen" value="1" />
+    <int name="Key_LStep_OnExitGameDelta" value="0" />
     <string name="__native_login_RoleCreateCountry__">DZ</string>
     <int name="Mode_Uninstall_Flag_300" value="0" />
     <int name="Mode_Uninstall_Flag_421" value="0" />
     <int name="Mode_Uninstall_Flag_420" value="0" />
-    <string name="Key_TcpSocketCheckCrt">1</string>
     <int name="Mode_Uninstall_Flag_423" value="0" />
+    <string name="Key_TcpSocketCheckCrt">1</string>
     <int name="Mode_Uninstall_Flag_422" value="0" />
+    <string name="4392_2116096109_LiveStreamListManager_NewTag_YouTube_10_b238c5fccdb1dc0b206edf760919a926">d938056294d87ce48899c7116d349cf1</string>
     <int name="enable-egl-config-context%20" value="0" />
     <int name="IsDeviceSupportAstc" value="1" />
     <int name="switch_skip_login_keep_time_ms" value="40000" />
@@ -123,16 +132,19 @@
     <int name="__WeakNetBypass__" value="22" />
     <int name="Mode_Uninstall_Flag_20010" value="0" />
     <int name="enable-shadervariants-collect" value="0" />
+    <int name="OpenMCNetPref" value="5" />
+    <int name="OfflineRoleLevel" value="1" />
     <int name="NewUIHeroInteractLv_4392_2116096109_" value="1" />
     <int name="PreformanceLvProxy" value="4" />
     <string name="Key_LoginIpGroup_Config">global-login.ml.youngjoygame.com%3A30021%3B161.202.206.25%3A30021%2C161.202.215.136%3A30021%3B158.177.196.164%3A30021%2C169.57.221.160%3A30021</string>
     <int name="ClearHighDefinitionSetUp" value="1" />
     <int name="__IS_SUPPORT_LOAD_LIBUNITY__" value="1" />
     <int name="Shadow" value="1" />
+    <int name="__WeakNetBypassCS__" value="1" />
     <int name="__login_skip_bulletin_time__" value="0" />
     <string name="4392_2116096109_NextCGLocalVersion">676.1</string>
     <int name="__login_report_upload_enable__" value="0" />
-    <string name="Analytics_LastActiveUIs">12-UI_CreateRole(0)</string>
+    <string name="Analytics_LastActiveUIs">12-UI_CreateRole(0)%2C12-UI_CreateRole(0)</string>
     <int name="Mode_Uninstall_Flag_560" value="0" />
     <int name="AutoHuntSkill" value="1" />
     <string name="PackagePrefVersion">1170.2</string>
@@ -145,24 +157,28 @@
     <int name="4392_2116096109_CitizensLeague_CurCompetitionMatchPhaseID" value="0" />
     <int name="newcoldstart_cpp_loginauthcache" value="0" />
     <int name="__native_login_ForceChangeAreaTagReason__" value="0" />
+    <string name="__report_dns_parse_ipret__">161.202.206.214</string>
     <int name="switch_skip_login_start_time_ms" value="0" />
     <long name="native_login_account_id" value="2116096109" />
     <int name="Mode_Uninstall_Flag_3010" value="0" />
+    <string name="4392_2116096109_LiveStreamListManager_NewTag_YouTube_10_5e8aec84b9773a19226c131a07d33223">6f7b5709ec30c23d71557c94fcd60b29</string>
     <string name="Key_EnableLoginZoneIdSessionkeys">1</string>
+    <float name="BENCH_SDK_IO_SCORE" value="10.0314" />
     <int name="disable-android-pvr-blit" value="1" />
     <int name="FramePacingOptimize" value="0" />
     <int name="login_all_process_time_out" value="45" />
     <int name="_PackageLevelIDPref_NewRule" value="99" />
     <int name="_isAccountBindInPreLoadingOpen_" value="1" />
-    <string name="unity.player_sessionid">1904350854224572165</string>
-    <float name="LoadRes_VeryHigh_Score" value="10.09" />
-    <int name="newcoldstart_cpp_use_fake_il2cpp" value="1" />
+    <string name="unity.player_sessionid">3388311334062074884</string>
+    <float name="LoadRes_VeryHigh_Score" value="10.0916" />
+    <int name="newcoldstart_cpp_use_fake_il2cpp" value="0" />
     <int name="4392_2116096109__LiveStreamListManager_Recommend_ShouldShowNewTag_" value="1" />
     <int name="__NATIVE_CONNECT_TIME_INTERAL__" value="2000" />
     <int name="__performancedefaultmode__" value="3" />
     <int name="__switch_login_shark__" value="1" />
     <float name="java_refresh_bitmap" value="0.0" />
     <int name="PADPackage" value="1" />
+    <string name="IphonePath">%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.mobile.legends%2Ffiles%2Fdragon2017%2Fassets%2F</string>
     <int name="InstallAPK_Pref" value="1" />
     <string name="FriendChatProfile_2116096109_4392" />
     <int name="_accountBindInPreLoadingLevel_" value="9" />
@@ -177,18 +193,22 @@
     <string name="ModeUpdateTrigger_3544392_2116096109_">272.1</string>
     <int name="GameLoadingReport" value="0" />
     <string name="4392_2116096109_BattleUISetupConf__left">%7B%22idx%22%3A6%2C%22name%22%3A%22left%22%2C%22__editInfos%22%3A%7B%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosA_4%22%3A%7B%22nodeId%22%3A207%2C%22pos%22%3A%7B%22y%22%3A-254%2C%22x%22%3A-300%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosA_4%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_LeftAttack%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_LeftAttack%22%2C%22pos%22%3A%7B%22y%22%3A-163%2C%22x%22%3A-546%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A234%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero04%22%3A%7B%22nodeId%22%3A215%2C%22pos%22%3A%7B%22y%22%3A32%2C%22x%22%3A-312%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero04%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosD_4%5C%2FSC_NormalUse3%5C%2FSkillAdd_Guide_3%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosD_4%5C%2FSC_NormalUse3%5C%2FSkillAdd_Guide_3%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A214%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosC_4%5C%2FSC_NormalUse2%5C%2FSkillAdd_Guide_2%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosC_4%5C%2FSC_NormalUse2%5C%2FSkillAdd_Guide_2%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A212%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosA_3%22%3A%7B%22nodeId%22%3A201%2C%22pos%22%3A%7B%22y%22%3A-244%2C%22x%22%3A-305%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosA_3%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosA_3%5C%2FSC_NormalUse0%5C%2FSkillAdd_Guide_0%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosA_3%5C%2FSC_NormalUse0%5C%2FSkillAdd_Guide_0%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A202%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_MiniMap_ToolButton%5C%2Fm_TL%5C%2Fm_Label_ChatContent%22%3A%7B%22nodeId%22%3A232%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A216%7D%2C%22root%22%3A%22m_UI_MiniMap_ToolButton%22%2C%22path%22%3A%22m_TL%5C%2Fm_Label_ChatContent%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosB_4%22%3A%7B%22nodeId%22%3A209%2C%22pos%22%3A%7B%22y%22%3A-160%2C%22x%22%3A-340%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosB_4%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosC_3%5C%2FSC_NormalUse2%5C%2FSkillAdd_Guide_2%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosC_3%5C%2FSC_NormalUse2%5C%2FSkillAdd_Guide_2%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A206%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero01%22%3A%7B%22nodeId%22%3A218%2C%22pos%22%3A%7B%22y%22%3A-172%2C%22x%22%3A-172%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero01%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosB_4%5C%2FSC_NormalUse1%5C%2FSkillAdd_Guide_1%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosB_4%5C%2FSC_NormalUse1%5C%2FSkillAdd_Guide_1%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A210%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosD_4%22%3A%7B%22nodeId%22%3A213%2C%22pos%22%3A%7B%22y%22%3A-50%2C%22x%22%3A-504%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosD_4%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosC_3%22%3A%7B%22nodeId%22%3A205%2C%22pos%22%3A%7B%22y%22%3A-60%2C%22x%22%3A-488%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosC_3%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_Attack0%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_Attack0%22%2C%22pos%22%3A%7B%22y%22%3A-230%2C%22x%22%3A-480%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A217%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero03%22%3A%7B%22nodeId%22%3A219%2C%22pos%22%3A%7B%22y%22%3A-22%2C%22x%22%3A-246%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero03%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero05%22%3A%7B%22nodeId%22%3A222%2C%22pos%22%3A%7B%22y%22%3A70%2C%22x%22%3A-384%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero05%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillB%22%3A%7B%22nodeId%22%3A224%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A-90%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillB%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_RightAttack%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_RightAttack%22%2C%22pos%22%3A%7B%22y%22%3A-299%2C%22x%22%3A-412%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A233%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_sprite_SkillCancel%22%3A%7B%22nodeId%22%3A227%2C%22pos%22%3A%7B%22y%22%3A150%2C%22x%22%3A-261%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_sprite_SkillCancel%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillG%22%3A%7B%22nodeId%22%3A226%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A90%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillG%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero02%22%3A%7B%22nodeId%22%3A229%2C%22pos%22%3A%7B%22y%22%3A-93%2C%22x%22%3A-199%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero02%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosA_4%5C%2FSC_NormalUse0%5C%2FSkillAdd_Guide_0%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosA_4%5C%2FSC_NormalUse0%5C%2FSkillAdd_Guide_0%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A208%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosB_3%5C%2FSC_NormalUse1%5C%2FSkillAdd_Guide_1%22%3A%7B%22rotation%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%2C%22z%22%3A270%7D%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosB_3%5C%2FSC_NormalUse1%5C%2FSkillAdd_Guide_1%22%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22nodeId%22%3A204%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_JoyStick%5C%2Fm_BOTTON%22%3A%7B%22nodeId%22%3A231%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A840%7D%2C%22root%22%3A%22m_UI_JoyStick%22%2C%22path%22%3A%22m_BOTTON%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillA%22%3A%7B%22nodeId%22%3A223%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillA%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillD%22%3A%7B%22nodeId%22%3A225%2C%22pos%22%3A%7B%22y%22%3A325%2C%22x%22%3A-480%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillD%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosB_3%22%3A%7B%22nodeId%22%3A203%2C%22pos%22%3A%7B%22y%22%3A-125%2C%22x%22%3A-370%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosB_3%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosC_4%22%3A%7B%22nodeId%22%3A211%2C%22pos%22%3A%7B%22y%22%3A-90%2C%22x%22%3A-410%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosC_4%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillC%22%3A%7B%22nodeId%22%3A216%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A-180%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillC%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%7D%2C%22__version%22%3A2%2C%22panels%22%3A%7B%7D%7D</string>
+    <int name="__OffineBypassCS__" value="1" />
+    <int name="__OffineRandomResult3__" value="0" />
     <string name="_CrashTags_">%7B%22region_id%22%3A%224%22%7D</string>
     <string name="4392_2116096109_BattleUISetupConf">%7B%22__version%22%3A2%2C%22name%22%3A%22type1%22%2C%22idx%22%3A2%2C%22panels%22%3A%7B%7D%7D</string>
-    <string name="MemoryAllocatorType">3</string>
     <int name="skip-swap-when-recreate-surface" value="1" />
     <string name="LatinAmericanSwitchDataNextRewardShowSwitch" />
+    <string name="MemoryAllocatorType">3</string>
     <int name="Minimal" value="0" />
     <string name="4392_2116096109_Key_MyLastGameVersion">1170.2</string>
     <int name="logout_day" value="0" />
     <int name="__is_open_login_udp__" value="0" />
     <int name="__ReportClient2Shark_Crush_Protected__" value="0" />
     <int name="_accountBindInPreLoadingDayMax_" value="5" />
-    <int name="HeroAdjustActivity_SaveReturnLoginTime" value="1775141094" />
+    <string name="4392_2116096109_LiveStreamListManager_NewTag_YouTube_10_84e22a3979a4257f3f683849d23ab2f2">ffd26c29e803baba03d0aa07a5aba6c9</string>
+    <string name="__OffineRandomSeed3__">1775141251</string>
+    <int name="HeroAdjustActivity_SaveReturnLoginTime" value="1775141467" />
     <int name="ReCheckDownloadReason" value="16" />
     <int name="_native_newcoldstart_cpp_update_" value="0" />
     <int name="Mode_Uninstall_Flag_999" value="0" />
@@ -208,7 +228,7 @@
     <int name="check-act-ready" value="1" />
     <int name="newcoldstart_mainctrl_result" value="1" />
     <int name="__unityplayer_runinbackground__" value="0" />
-    <int name="m_CacheLoginUID" value="4996" />
+    <int name="m_CacheLoginUID" value="5002" />
     <int name="4392_2116096109_CitizensLeague_ThisWeekCoin" value="0" />
     <string name="__app_uuid__">84a96144-1c76-4827-aff9-77531ba08b16</string>
     <string name="ActLclCfgMgrLastUnitKey2">4392211609610910</string>
@@ -222,17 +242,17 @@
     <int name="4392_2116096109__UISetupProtectiveRepairData" value="1" />
     <string name="RWPathRec">%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.mobile.legends%2Ffiles</string>
     <int name="Mode_Uninstall_Flag_400" value="0" />
-    <int name="ActCfgCycleClearTime" value="1775141092" />
+    <int name="ActCfgCycleClearTime" value="1775141465" />
     <string name="NewFlowBackActivity6504392_2116096109_2601121956SignIn2025RedPoint" />
-    <float name="BytesBenchScore" value="10.09" />
+    <float name="BytesBenchScore" value="10.0916" />
     <string name="__GSDK_CachedDID__">7531265052557772344</string>
     <int name="Key_MyLastZoneId" value="4392" />
     <string name="NativeLogin_ProductType">prod</string>
     <string name="__PlayerZoneIdReportCache__">4392</string>
     <int name="__Check_049highadd_Magic__" value="1" />
-    <int name="Key_EnableLoginZoneIdSessionkeys_C" value="1" />
     <int name="4392_2116096109_CitizensLeague_CurCompetitionMatchLv" value="0" />
     <int name="__FireBase_Remote_Config__" value="92" />
+    <int name="Key_EnableLoginZoneIdSessionkeys_C" value="1" />
     <int name="__serverperformancelevelconfig__" value="25" />
     <int name="_accountBindInPreLoadingWeekMax_" value="35" />
     <int name="Mode_Uninstall_Flag_410" value="0" />
@@ -240,10 +260,11 @@
     <int name="Mode_Uninstall_Flag_2002" value="0" />
     <int name="Mode_Uninstall_Flag_2001" value="0" />
     <int name="4392_2116096109_eCIT_BattleUISetupNew_ver" value="1" />
-    <string name="__Java_JsonDeviceID__">25adf7d37317e2a180079823305419defa58128c58a552afaa28c931-d8e6-41d3-9083-6b0cd3d7b5a8</string>
+    <string name="__Java_JsonDeviceID__">8797a6bdf4911016e5e6f31bc51becdad3094d350f9f4cc7818542ba-c9db-4000-9a01-af443ae4b72c</string>
     <string name="0_PushNotificatonActivity_PushEventNames_" />
     <string name="4392_2116096109_BattleUISetupHeroUsage">%7B%22__saveNum%22%3A0%2C%22heroUsagePrefKeys%22%3A%7B%2253%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2243%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2273%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2263%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2293%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2283%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2213%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2233%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2223%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2242%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2252%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2262%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2272%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2282%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2292%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22122%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22129%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22121%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2212%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2222%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2232%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2295%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2285%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2275%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2265%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2255%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2245%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2235%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22116%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22132%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%221%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%223%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%222%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%225%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%224%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%227%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%226%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2225%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%228%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22110%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2294%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2274%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2284%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2254%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2264%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2234%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2244%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22126%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22102%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22101%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2214%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2224%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22128%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22120%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2287%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2277%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2297%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2247%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2237%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2267%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2257%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22112%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22115%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22111%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22114%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22119%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2227%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2217%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22107%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2286%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2296%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2236%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2246%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22103%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2266%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22106%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22125%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22108%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22124%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2216%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2226%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22100%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2271%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2261%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2251%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2241%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2291%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2281%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2259%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2249%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2239%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2229%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2299%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2289%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2279%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2269%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2219%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2231%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2221%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2211%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2260%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2270%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2240%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2250%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22131%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22130%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2280%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2290%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2248%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2258%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2228%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2238%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2288%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2298%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2268%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2278%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22127%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2276%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22105%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22123%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%229%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2218%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22113%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22118%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22117%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2256%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22109%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%22104%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2220%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2230%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2215%22%3A%224392_2116096109_BattleUISetupConf__type1%22%2C%2210%22%3A%224392_2116096109_BattleUISetupConf__type1%22%7D%2C%22heroUsages%22%3A%7B%2253%22%3A2%2C%2243%22%3A2%2C%2273%22%3A2%2C%2263%22%3A2%2C%2293%22%3A2%2C%2283%22%3A2%2C%2213%22%3A2%2C%2233%22%3A2%2C%2223%22%3A2%2C%2242%22%3A2%2C%2252%22%3A2%2C%2262%22%3A2%2C%2272%22%3A2%2C%2282%22%3A2%2C%2292%22%3A2%2C%22122%22%3A2%2C%22129%22%3A2%2C%22121%22%3A2%2C%2212%22%3A2%2C%2222%22%3A2%2C%2232%22%3A2%2C%2295%22%3A2%2C%2285%22%3A2%2C%2275%22%3A2%2C%2265%22%3A2%2C%2255%22%3A2%2C%2245%22%3A2%2C%2235%22%3A2%2C%22116%22%3A2%2C%22132%22%3A2%2C%221%22%3A2%2C%223%22%3A2%2C%222%22%3A2%2C%225%22%3A2%2C%224%22%3A2%2C%227%22%3A2%2C%226%22%3A2%2C%2225%22%3A2%2C%228%22%3A2%2C%22110%22%3A2%2C%2294%22%3A2%2C%2274%22%3A2%2C%2284%22%3A2%2C%2254%22%3A2%2C%2264%22%3A2%2C%2234%22%3A2%2C%2244%22%3A2%2C%22126%22%3A2%2C%22102%22%3A2%2C%22101%22%3A2%2C%2214%22%3A2%2C%2224%22%3A2%2C%22128%22%3A2%2C%22120%22%3A2%2C%2287%22%3A2%2C%2277%22%3A2%2C%2297%22%3A2%2C%2247%22%3A2%2C%2237%22%3A2%2C%2267%22%3A2%2C%2257%22%3A2%2C%22112%22%3A2%2C%22115%22%3A2%2C%22111%22%3A2%2C%22114%22%3A2%2C%22119%22%3A2%2C%2227%22%3A2%2C%2217%22%3A2%2C%22107%22%3A2%2C%2286%22%3A2%2C%2296%22%3A2%2C%2236%22%3A2%2C%2246%22%3A2%2C%22103%22%3A2%2C%2266%22%3A2%2C%22106%22%3A2%2C%22125%22%3A2%2C%22108%22%3A2%2C%22124%22%3A2%2C%2216%22%3A2%2C%2226%22%3A2%2C%22100%22%3A2%2C%2271%22%3A2%2C%2261%22%3A2%2C%2251%22%3A2%2C%2241%22%3A2%2C%2291%22%3A2%2C%2281%22%3A2%2C%2259%22%3A2%2C%2249%22%3A2%2C%2239%22%3A2%2C%2229%22%3A2%2C%2299%22%3A2%2C%2289%22%3A2%2C%2279%22%3A2%2C%2269%22%3A2%2C%2219%22%3A2%2C%2231%22%3A2%2C%2221%22%3A2%2C%2211%22%3A2%2C%2260%22%3A2%2C%2270%22%3A2%2C%2240%22%3A2%2C%2250%22%3A2%2C%22131%22%3A2%2C%22130%22%3A2%2C%2280%22%3A2%2C%2290%22%3A2%2C%2248%22%3A2%2C%2258%22%3A2%2C%2228%22%3A2%2C%2238%22%3A2%2C%2288%22%3A2%2C%2298%22%3A2%2C%2268%22%3A2%2C%2278%22%3A2%2C%22127%22%3A2%2C%2276%22%3A2%2C%22105%22%3A2%2C%22123%22%3A2%2C%229%22%3A2%2C%2218%22%3A2%2C%22113%22%3A2%2C%22118%22%3A2%2C%22117%22%3A2%2C%2256%22%3A2%2C%22109%22%3A2%2C%22104%22%3A2%2C%2220%22%3A2%2C%2230%22%3A2%2C%2215%22%3A2%2C%2210%22%3A2%7D%7D</string>
     <int name="UnityGraphicsQuality" value="1" />
+    <float name="BENCH_SDK_CPU_SCORE" value="10.0789" />
     <string name="__PlayerAccountIdReportCache__">2116096109</string>
     <int name="InstallAPK_Count_Pref" value="1" />
     <int name="Mode_Uninstall_Flag_380" value="0" />
@@ -253,38 +274,45 @@
     <int name="Mode_Uninstall_Flag_260" value="0" />
     <string name="4392_2116096109_SocialContestMD5">57D44E144F5511D0A3FAEC18EF58433E</string>
     <int name="enable-skinnermeshupdate-performance" value="0" />
+    <int name="Optimize_DeviceInfo" value="1" />
     <string name="SwitchRecorderConfigCache" />
+    <string name="4392_2116096109_LiveStreamListManager_NewTag_YouTube_10_21fba05a3a8d59741fc4036e26650939">23832f386b73f251aa2b6ee31eadf21b</string>
     <int name="nativelogin_log_enabled" value="0" />
+    <int name="__OffineRandomResult1__" value="1" />
     <string name="4392_2116096109_ReportRaceLive_YMD">2026-4-2</string>
     <string name="OfflineModeData">2116096109%7C1%7C%7C%7C0%3B3%3B6%3B18%3B39%3B85%3B</string>
     <int name="_recordingINLA" value="0" />
-    <int name="Report_client_HeroVoiceLangUse" value="1775141093" />
+    <int name="Report_client_HeroVoiceLangUse" value="1775141466" />
     <string name="PlayerPrefs_Key_Activity_142_669">1%3B1%3B0%3B120000%3B2-1300-10000%2616-300-10000%2664-700-5000%26128-350-1000%26256-45-1000%26512-25-1000%261024-16-30%262048-12-30%264096-2-10%268192-2-10%2640000-3-5%3B1%3B1</string>
     <int name="Key_TcpSocketCheckCrt_C" value="1" />
     <int name="force-invalidate-depth-stencil" value="1" />
     <string name="Analytics_LastActiveUIName">UI_CreateRole</string>
-    <string name="_AppClickId_">4996</string>
+    <string name="_AppClickId_">5002</string>
     <int name="Mode_Uninstall_Flag_270" value="0" />
     <int name="Mode_Uninstall_Flag_391" value="0" />
     <int name="gfx-device-waitfor-present-sync-point" value="0" />
     <int name="Mode_Uninstall_Flag_390" value="0" />
     <int name="native_binarypatchmd5_check" value="0" />
+    <int name="Key_LStep_OnExitGameLoginID" value="5002" />
     <int name="m_bTurboLoadLogin97_13" value="1" />
     <int name="gfx-enable-native-gfx-jobs" value="0" />
-    <int name="ping_prefCountryStart" value="1775141094" />
+    <int name="ping_prefCountryStart" value="1775141467" />
     <string name="mt-mesh-bundle-set" />
     <int name="newcoldstart_skip_refresh_if_lack_disk_space" value="0" />
+    <string name="__OffineRandomSeed1__">4625294871259606981</string>
     <int name="4392_2116096109__UISetupBattleShowMessageRepairData" value="1" />
     <int name="enable-swapbuffer-callbacks" value="0" />
-    <int name="new_player_ret2116096109" value="1775141092" />
+    <int name="new_player_ret2116096109" value="1775141466" />
     <string name="__login_dns_parse_ipret__">161.202.222.47</string>
     <int name="ResLoadSwitch" value="1" />
     <int name="ps_looping_alpha_clip_less_value" value="0" />
     <string name="4392_2116096109_CitizensLeague_PopularHeroIDs" />
+    <int name="_Analysis_forceKilled_Application_" value="1" />
     <string name="LoadUtilSwitchParam">1%3B1%3B1%3B1%3B1%3B1%3B15%3B0%3B0%3B1%3B0%3B0%3B1%3B1</string>
+    <string name="OfflineForbidHeros">133%3B134%3B135%3B188%3B299%3B3032%3B3052%3B4001%3B4002%3B4003%3B4004%3B4005%3B4006%3B4007%3B4008%3B4009%3B4010%3B4011%3B4012%3B4013%3B4014%3B4015%3B4016%3B4018%3B4019%3B4020%3B4021%3B4022%3B4023%3B4024%3B4025%3B4028%3B4030%3B4031%3B4032%3B4033%3B4034%3B4036%3B4037%3B4038%3B4041%3B4043%3B4044%3B4045%3B4046%3B4047%3B4051%3B4052%3B4053%3B4056%3B4061%3B4057%3B4060%3B4062%3B4063%3B4067%3B4068%3B4069%3B4071%3B4072%3B4074%3B4075%3B4076%3B4079%3B4080%3B4083%3B4084%3B4085%3B4088%3B4089%3B4094%3B4096%3B4100%3B4103%3B4104%3B4106%3B4108%3B4113%3B4131%3B4132%3B4133%3B40119%3B6302%3B6303%3B6304%3B6305%3B6306%3B6307%3B6308%3B6309%3B</string>
     <int name="__VersionStage__1" value="272809" />
     <int name="m_bEnableReportLoginEvent" value="1" />
-    <int name="Key_EnterGameTime" value="1" />
+    <int name="Key_EnterGameTime" value="2" />
     <int name="__VersionStage__0" value="272809" />
     <string name="4392_2116096109_BattleUISetupConf__pad">%7B%22idx%22%3A5%2C%22name%22%3A%22pad%22%2C%22__editInfos%22%3A%7B%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosA_4%22%3A%7B%22nodeId%22%3A75%2C%22pos%22%3A%7B%22y%22%3A-254%2C%22x%22%3A300%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosA_4%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_LeftAttack%22%3A%7B%22nodeId%22%3A145%2C%22pos%22%3A%7B%22y%22%3A-294%2C%22x%22%3A414%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_LeftAttack%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero04%22%3A%7B%22nodeId%22%3A76%2C%22pos%22%3A%7B%22y%22%3A32%2C%22x%22%3A312%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero04%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%22%3A%7B%22nodeId%22%3A151%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%22%2C%22alpha%22%3A1%2C%22size%22%3A1%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosA_3%22%3A%7B%22nodeId%22%3A77%2C%22pos%22%3A%7B%22y%22%3A-244%2C%22x%22%3A305%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosA_3%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_Attack0%22%3A%7B%22nodeId%22%3A79%2C%22pos%22%3A%7B%22y%22%3A-241%2C%22x%22%3A464%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_Attack0%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillC%22%3A%7B%22nodeId%22%3A78%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A180%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillC%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_MiniMap_ToolButton%5C%2Fm_TL%5C%2Fm_Label_ChatContent%22%3A%7B%22nodeId%22%3A100%2C%22pos%22%3A%7B%22y%22%3A47%2C%22x%22%3A-526%7D%2C%22root%22%3A%22m_UI_MiniMap_ToolButton%22%2C%22path%22%3A%22m_TL%5C%2Fm_Label_ChatContent%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosB_3%22%3A%7B%22nodeId%22%3A82%2C%22pos%22%3A%7B%22y%22%3A-125%2C%22x%22%3A370%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosB_3%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero01%22%3A%7B%22nodeId%22%3A81%2C%22pos%22%3A%7B%22y%22%3A-172%2C%22x%22%3A172%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero01%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillB%22%3A%7B%22nodeId%22%3A88%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A90%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillB%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosD_4%22%3A%7B%22nodeId%22%3A83%2C%22pos%22%3A%7B%22y%22%3A-50%2C%22x%22%3A504%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosD_4%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero03%22%3A%7B%22nodeId%22%3A84%2C%22pos%22%3A%7B%22y%22%3A-22%2C%22x%22%3A246%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero03%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_BattleShowMessage%5C%2Fm_TOP%5C%2Fm_totalMessage%5C%2Fm_showMessage%22%3A%7B%22nodeId%22%3A85%2C%22pos%22%3A%7B%22y%22%3A17%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_BattleShowMessage%22%2C%22path%22%3A%22m_TOP%5C%2Fm_totalMessage%5C%2Fm_showMessage%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillD%22%3A%7B%22nodeId%22%3A89%2C%22pos%22%3A%7B%22y%22%3A325%2C%22x%22%3A450%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillD%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero05%22%3A%7B%22nodeId%22%3A87%2C%22pos%22%3A%7B%22y%22%3A70%2C%22x%22%3A384%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero05%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_MiniMap%5C%2Fm_TL%5C%2Fm_Map%22%3A%7B%22nodeId%22%3A86%2C%22pos%22%3A%7B%22y%22%3A234%2C%22x%22%3A-480%7D%2C%22root%22%3A%22m_UI_MiniMap%22%2C%22path%22%3A%22m_TL%5C%2Fm_Map%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_RightAttack%22%3A%7B%22nodeId%22%3A144%2C%22pos%22%3A%7B%22y%22%3A-190%2C%22x%22%3A516%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_ExtraAttackButton%5C%2Fm_Sprite_RightAttack%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_sprite_SkillCancel%22%3A%7B%22nodeId%22%3A90%2C%22pos%22%3A%7B%22y%22%3A173%2C%22x%22%3A375%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_sprite_SkillCancel%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkillExtra%5C%2Fm_BOTTON%5C%2Fm_BuffPos%22%3A%7B%22nodeId%22%3A91%2C%22pos%22%3A%7B%22y%22%3A-192%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkillExtra%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_BuffPos%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_Kill%5C%2Fm_TOP%5C%2Fm_Kill%22%3A%7B%22nodeId%22%3A96%2C%22pos%22%3A%7B%22y%22%3A42%2C%22x%22%3A-1%7D%2C%22root%22%3A%22m_UI_Kill%22%2C%22path%22%3A%22m_TOP%5C%2Fm_Kill%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillG%22%3A%7B%22nodeId%22%3A95%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A-90%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillG%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosB_4%22%3A%7B%22nodeId%22%3A94%2C%22pos%22%3A%7B%22y%22%3A-160%2C%22x%22%3A340%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosB_4%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_JoyStick%5C%2Fm_BOTTON%22%3A%7B%22nodeId%22%3A97%2C%22pos%22%3A%7B%22y%22%3A-33%2C%22x%22%3A-83%7D%2C%22root%22%3A%22m_UI_JoyStick%22%2C%22path%22%3A%22m_BOTTON%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillA%22%3A%7B%22nodeId%22%3A93%2C%22pos%22%3A%7B%22y%22%3A0%2C%22x%22%3A0%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_extraSkillPos%5C%2Fm_extraSkillA%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_BattleHeroNearby%5C%2Fm_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero02%22%3A%7B%22nodeId%22%3A92%2C%22pos%22%3A%7B%22y%22%3A-93%2C%22x%22%3A199%7D%2C%22root%22%3A%22m_UI_BattleHeroNearby%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_HeroNearby%5C%2Fm_Sprite_Hero02%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_BattleInfo%5C%2Fm_TR%22%3A%7B%22nodeId%22%3A98%2C%22pos%22%3A%7B%22y%22%3A63%2C%22x%22%3A110%7D%2C%22root%22%3A%22m_UI_BattleInfo%22%2C%22path%22%3A%22m_TR%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosC_4%22%3A%7B%22nodeId%22%3A99%2C%22pos%22%3A%7B%22y%22%3A-90%2C%22x%22%3A410%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_4%5C%2Fm_SkillPosC_4%22%2C%22alpha%22%3A1%2C%22size%22%3A0.8%7D%2C%22m_UI_KeySkill%5C%2Fm_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosC_3%22%3A%7B%22nodeId%22%3A80%2C%22pos%22%3A%7B%22y%22%3A-60%2C%22x%22%3A488%7D%2C%22root%22%3A%22m_UI_KeySkill%22%2C%22path%22%3A%22m_BOTTON%5C%2Fm_SkilPos_3%5C%2Fm_SkillPosC_3%22%2C%22alpha%22%3A1%2C%22size%22%3A0.81%7D%7D%2C%22__version%22%3A2%2C%22panels%22%3A%7B%7D%7D</string>
     <int name="__VersionStage__2" value="272809" />
@@ -292,7 +320,7 @@
     <int name="FlogUploader.isStartUpAtUpload" value="0" />
     <int name="loginquest" value="100" />
     <int name="Key_EnableLoginLoadingCost" value="0" />
-    <long name="__SDKNLlastmodified__" value="1775139608333" />
+    <long name="__SDKNLlastmodified__" value="1775141459705" />
     <int name="Mode_Uninstall_Flag_280" value="0" />
     <int name="Mode_Uninstall_Flag_1002" value="0" />
     <int name="enable-egl-config-context" value="1" />
@@ -305,16 +333,18 @@
     <int name="Mode_Uninstall_Flag_1004" value="0" />
     <int name="Mode_Uninstall_Flag_1003" value="0" />
     <int name="NATIVE_DYNAMIC_BONES" value="0" />
-    <string name="unity.player_session_count">1</string>
+    <string name="unity.player_session_count">3</string>
     <int name="PackageFirstQualityName" value="4" />
     <string name="DLAIPREF_ActClientCfgOfflineBattle">cACJlY3NCAGMBUIAQwBEAEUARgBHAA8QAU8SAE8UAE8VAE8YAG8aAE8gAE8kAnCATyWVAXAAAVEBAAICAWQDAAAAMgABAGQAAgCWAVUzAAEAAwAFAAYACAAMAA0ADgAQABIAFQAXABoAGwAfACEAKAApACoAKwAtADEAMwA1ADgAOQA7ADwAPQBBAEUARgBIAEkATgBQAFEAVwBYAFkAWgBcAF0AXgBkAGUAZgBpAG0AcAByBgEHAQgDCwIMoOFnDQQOrBsPD0OAbyYAXycAbygAbykADyrLq8PNBg8ry6vDzQYPLWUPLsvMCU81AIA%3D</string>
     <int name="Key_SwitchSDKReportByCache2" value="0" />
     <string name="4392_2116096109_ReportRaceLive_TotalResidenceTimeMS">0</string>
+    <int name="__OffineRandomResult2__" value="0" />
     <string name="4392_2116096109_InteractiveEffectValueList">0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0</string>
     <string name="__gpu_info__">Adreno%20(TM)%20740</string>
     <int name="Screenmanager%20Fullscreen%20mode" value="1" />
     <int name="__connect_report_im__" value="0" />
     <int name="SoundSuit" value="1" />
+    <string name="__OffineRandomSeed2__">1775141251484</string>
     <string name="TimedTaskActivityNeedShowRedPoint1132">242026</string>
     <int name="IL2CPP_COMPACT_GENERIC_METHOD_CACHE" value="1" />
     <int name="__login_cellular_wifi_open__" value="0" />
