@@ -1,0 +1,33 @@
+[OK] ID 45 attempts=1 - e751f2fabb6fb2ceead46b45e040deee1ebdbc79a986aa30a2b05d3-8ff0-410a-b880-70683898b25c
+[RETRY] ID 46 attempt #1 - matched 'bad1.png' (90.13%) - f4f08879bbaa1a21a38750ee6e40a79c7a17bcc1c290bcccced039cf-f0a2-4480-a157-7a603c8399e6
+[OK] ID 46 attempts=2 - f4f08879bbaa1a21a38750ee6e40a79c7a17bcc1c290bcccced039cf-f0a2-4480-a157-7a603c8399e6
+[RETRY] ID 47 attempt #1 - matched 'bad1.png' (90.70%) - 2a139c8a9ebe015087cc21c7734fd60b166672D34C39A839383b5851-def4-4e7e-bb71-c06b062bda22
+[OK] ID 47 attempts=2 - 2a139c8a9ebe015087cc21c7734fd60b166672D34C39A839383b5851-def4-4e7e-bb71-c06b062bda22
+[RETRY] ID 48 attempt #1 - matched 'bad1.png' (91.01%) - cff1fc8f374e58a2331746d409900b5785f229b0ff06e7b88e2b33fe-9be3-4b75-b7ba-5eb538082aba
+[OK] ID 48 attempts=2 - cff1fc8f374e58a2331746d409900b5785f229b0ff06e7b88e2b33fe-9be3-4b75-b7ba-5eb538082aba
+[OK] ID 49 attempts=1 - 1b55025b03eda7b2fd8716744a02688cf88e4e6a1d0869b8e5de3d18-ba8e-4e9c-9873-3d1c3c23e599
+[OK] ID 50 attempts=1 - 35be07f56827793463db697ae569a6116f304f94adc17cfb5df4c67b-e4ae-4a4f-bc8d-146de9108698
+[RETRY] ID 51 attempt #1 - matched 'bad1.png' (91.01%) - 00f72b8ed5986fe52901305c3ff6a358ea72cef4b8a86deb5999fc64-1298-4231-a9bc-b71d47f98947
+[OK] ID 51 attempts=2 - 00f72b8ed5986fe52901305c3ff6a358ea72cef4b8a86deb5999fc64-1298-4231-a9bc-b71d47f98947
+[RETRY] ID 52 attempt #1 - matched 'bad1.png' (90.74%) - 5190ffd49cd217535e145cc6f4985aa23b2cb9bff5551641d67eade4-d87d-483b-8aa6-64f7685fa5b7
+[OK] ID 52 attempts=2 - 5190ffd49cd217535e145cc6f4985aa23b2cb9bff5551641d67eade4-d87d-483b-8aa6-64f7685fa5b7
+[RETRY] ID 53 attempt #1 - matched 'bad1.png' (90.13%) - c92d20d8cf3887f4448bc2d20207a2893331843a8964d21d3c723f47-fc91-4e1a-9762-2d78285ee271
+[OK] ID 53 attempts=2 - c92d20d8cf3887f4448bc2d20207a2893331843a8964d21d3c723f47-fc91-4e1a-9762-2d78285ee271
+[RETRY] ID 54 attempt #1 - matched 'bad1.png' (91.00%) - f709218b1c944a121cebecd937783a59afd31b75d886f6cf12ac6905-7aef-4ee6-b851-2d2af2934e80
+[OK] ID 54 attempts=2 - f709218b1c944a121cebecd937783a59afd31b75d886f6cf12ac6905-7aef-4ee6-b851-2d2af2934e80
+[RETRY] ID 55 attempt #1 - matched 'bad1.png' (90.29%) - 6ca61b16e5baeef6e9cd030cd5a25e38cffb7d52498182b20f5c34dd-075b-489b-abba-b32457105258
+[OK] ID 55 attempts=2 - 6ca61b16e5baeef6e9cd030cd5a25e38cffb7d52498182b20f5c34dd-075b-489b-abba-b32457105258
+[RETRY] ID 56 attempt #1 - matched 'bad1.png' (90.37%) - 18be0d684abc2d10bfd0e6b1391bbb0d84e8fc02bdddc9378cc47fa1-97c4-405c-9d96-60765d9550db
+[OK] ID 56 attempts=2 - 18be0d684abc2d10bfd0e6b1391bbb0d84e8fc02bdddc9378cc47fa1-97c4-405c-9d96-60765d9550db
+[RETRY] ID 57 attempt #1 - matched 'bad1.png' (90.76%) - 36b858b2132cfdd1e13b3803fec8dfb5001ab90f36dd6d77633b9742-38de-44db-8935-b1db2920c84b
+[OK] ID 57 attempts=2 - 36b858b2132cfdd1e13b3803fec8dfb5001ab90f36dd6d77633b9742-38de-44db-8935-b1db2920c84b
+[RETRY] ID 58 attempt #1 - matched 'bad1.png' (90.89%) - 68a3b0fdea2609f80e757ecac73b02625ca74d0da4821cb0d67191ec-9165-4d9b-b232-675cc380d013
+[OK] ID 58 attempts=2 - 68a3b0fdea2609f80e757ecac73b02625ca74d0da4821cb0d67191ec-9165-4d9b-b232-675cc380d013
+[RETRY] ID 59 attempt #1 - matched 'bad1.png' (90.13%) - 8314f2fe24de3a8d77badbac366532d332daf06a2f682f331165b6b8-a8fb-41a8-a5ba-fd6efdc6bc0a
+[OK] ID 59 attempts=2 - 8314f2fe24de3a8d77badbac366532d332daf06a2f682f331165b6b8-a8fb-41a8-a5ba-fd6efdc6bc0a
+[RETRY] ID 60 attempt #1 - matched 'bad1.png' (90.94%) - be0ec8729286c15b871087bd8132701c2ce9d14a6656528be6e9bdea-d419-44a3-8ee5-e7d6f4831305
+[OK] ID 60 attempts=2 - be0ec8729286c15b871087bd8132701c2ce9d14a6656528be6e9bdea-d419-44a3-8ee5-e7d6f4831305
+[RETRY] ID 61 attempt #1 - matched 'bad1.png' (90.28%) - 23979203e3117296b94bac8e0f11949df7d19cbe4351fee03dd471d7-bab1-45d3-9d7e-540449a3a254
+[OK] ID 61 attempts=2 - 23979203e3117296b94bac8e0f11949df7d19cbe4351fee03dd471d7-bab1-45d3-9d7e-540449a3a254
+[RETRY] ID 62 attempt #1 - matched 'bad1.png' (90.25%) - ec78a00453526988a3cd6ad9880e68efdda0dac83e82499e5e15fc43-b980-450a-a223-bc6ec98875d7
+[OK] ID 62 attempts=2 - ec78a00453526988a3cd6ad9880e68efdda0dac83e82499e5e15fc43-b980-450a-a223-bc6ec98875d7
