@@ -22,7 +22,7 @@ BAD_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bad_i
 RETRY_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "retry_images")
 
 # --- Threshold Settings ---
-BAD_THRESHOLD = 0.97    # 97% for Bad IDs
+BAD_THRESHOLD = 0.98    # 98% for Bad IDs
 RETRY_THRESHOLD = 0.97  # 97% for Retries (near perfect match)
 
 WAIT_TIMES = {'emulator': 22, 'phone': 11}
